@@ -7,7 +7,7 @@ import java.util.List;
 
 import org.junit.jupiter.api.Test;
 
-class JunitTest {
+class 收银台设计JunitTest {
 	@Test
 	void test1() {
 		Solution lzr = new Solution();
