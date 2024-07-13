@@ -4,7 +4,6 @@ import java.util.Arrays;
 import java.util.Stack;
 
 class CarFleet {
-
 	int carFleet(int target, int[] position, int[] speed) {
 		int[][] arr = new int[position.length][2];
 		for (int i = 0; i < position.length; i++) {

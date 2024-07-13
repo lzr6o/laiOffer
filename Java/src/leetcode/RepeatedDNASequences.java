@@ -1,4 +1,5 @@
 package leetcode;
+
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
@@ -19,7 +20,7 @@ class RepeatedDNASequences {
 
 	public static void main(String[] args) {
 		RepeatedDNASequences lzr = new RepeatedDNASequences();
-		String s = "AAAAAAAAAAA";
+		String s = "AAAAACCCCCAAAAACCCCCCAAAAAGGGTTT";
 		List<String> res = lzr.findRepeatedDnaSequences(s);
 		System.out.print(res);
 	}
