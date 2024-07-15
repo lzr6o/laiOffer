@@ -2,7 +2,15 @@ package leetcode;
 
 class MinimumSizeSubarraySum {
 	int minSubArrayLen(int target, int[] nums) {
-		
+		int L = 0, R = 0, sum = 0, min = Integer.MAX_VALUE;
+		while (R < nums.length) {
+			sum += nums[R++];
+			while (sum >= target) {
+				min = Math.min(min, R - L);
+				sum -= nums[L++];
+			}
+		}
+		return min == Integer.MAX_VALUE ? 0 : min;
 	}
 
 	public static void main(String[] args) {

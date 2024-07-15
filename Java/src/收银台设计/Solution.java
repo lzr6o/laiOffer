@@ -63,3 +63,5 @@ class Solution {
 		return price == 0 ? -1 : 1;
 	}
 }
+
+

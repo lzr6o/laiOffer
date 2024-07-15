@@ -3,8 +3,8 @@ package IP报文头解析;
 import java.nio.charset.StandardCharsets;
 import java.util.Scanner;
 
-public class Main {
-	private static String getIpData(String input) {
+class Main {
+	static String getIpData(String input) {
 		String[] arr = input.split(" ");
 		int len = Integer.parseInt(arr[2] + arr[3], 16);
 		String logo = Integer.toBinaryString(Integer.parseInt(arr[6], 16));
