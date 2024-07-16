@@ -1,4 +1,5 @@
 package leetcode;
+
 class MajorityNumber {
 	int majority(int[] arr) {
 		int res = 0, cnt = 0;

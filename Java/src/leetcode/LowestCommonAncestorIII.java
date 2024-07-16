@@ -1,20 +1,11 @@
 package leetcode;
+
 class LowestCommonAncestorIII {
-	static class TreeNode {
-		int key;
-		TreeNode left;
-		TreeNode right;
-
-		TreeNode(int key) {
-			this.key = key;
-		}
-	}
-
 	TreeNode lowestCommonAncestor(TreeNode root, TreeNode one, TreeNode two) {
 		boolean[] valid = new boolean[1];
-		TreeNode result = helper(root, one, two, valid);
+		TreeNode res = helper(root, one, two, valid);
 		if (valid[0]) {
-			return result;
+			return res;
 		}
 		return null;
 	}
@@ -46,6 +37,6 @@ class LowestCommonAncestorIII {
 		tree.left.right = new TreeNode(3);
 		tree.right.right = new TreeNode(14);
 		TreeNode ancestor = lzr.lowestCommonAncestor(tree, tree.left.left, null);
-		System.out.print(ancestor.key);
+		System.out.print(ancestor.val);
 	}
 }

@@ -1,4 +1,5 @@
 package leetcode;
+
 class LargestSubArrayProduct {
 	double largestProduct(double[] arr) {
 		double min, max, res;
@@ -12,7 +13,7 @@ class LargestSubArrayProduct {
 		}
 		return res;
 	}
-	
+
 	public static void main(String[] args) {
 		LargestSubArrayProduct lzr = new LargestSubArrayProduct();
 		double[] arr = { -5, -2, -1, -0.3 };

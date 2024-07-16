@@ -1,4 +1,5 @@
 package leetcode;
+
 class MinimumCutsForPalindromes {
 	int minCut(String s) {
 		int len = s.length();

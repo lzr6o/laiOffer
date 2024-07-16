@@ -7,7 +7,7 @@ class LongestCommonPrefix {
 			for (String str : strs) {
 				if (i == str.length() || str.charAt(i) != strs[0].charAt(i)) {
 					return pre.toString();
-				}	
+				}
 			}
 			pre.append(strs[0].charAt(i));
 		}

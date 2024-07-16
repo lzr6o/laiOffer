@@ -1,19 +1,9 @@
 package leetcode;
+
 import java.util.LinkedList;
 import java.util.Queue;
 
 class LevelOrderReconstructCompleteBinaryTree {
-
-	class TreeNode {
-		int key;
-		TreeNode left;
-		TreeNode right;
-
-		TreeNode(int key) {
-			this.key = key;
-		}
-	}
-
 	TreeNode construct(int[] level) {
 		Queue<TreeNode> nodes = new LinkedList<>();
 		Queue<TreeNode> next = new LinkedList<>();
@@ -37,8 +27,6 @@ class LevelOrderReconstructCompleteBinaryTree {
 	}
 
 	public static void main(String[] args) {
-		
 
 	}
-
 }

@@ -1,4 +1,5 @@
 package leetcode;
+
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
@@ -8,17 +9,18 @@ class LowestCommonAncestorVI {
 	static class KnaryTreeNode {
 		int key;
 		List<KnaryTreeNode> children;
+
 		KnaryTreeNode(int key) {
 			this.key = key;
 			this.children = new ArrayList<>();
 		}
 	}
-	
+
 	KnaryTreeNode lowestCommonAncestor(KnaryTreeNode root, List<KnaryTreeNode> nodes) {
 		Set<KnaryTreeNode> set = new HashSet<>(nodes);
 		return helper(root, set);
 	}
-	
+
 	KnaryTreeNode helper(KnaryTreeNode root, Set<KnaryTreeNode> set) {
 		if (root == null || set.contains(root)) {
 			return root;
@@ -37,7 +39,7 @@ class LowestCommonAncestorVI {
 		}
 		return found;
 	}
-	
+
 	public static void main(String[] args) {
 		LowestCommonAncestorVI lzr = new LowestCommonAncestorVI();
 		KnaryTreeNode Node5 = new KnaryTreeNode(5);

@@ -1,7 +1,6 @@
 package leetcode;
 
 class LengthOfLastWord {
-
 	int lengthOfLastWord(String s) {
 		int len = 0;
 		for (int i = s.length() - 1; i >= 0; i--) {
@@ -15,7 +14,7 @@ class LengthOfLastWord {
 		}
 		return len;
 	}
-	
+
 	public static void main(String[] args) {
 		LengthOfLastWord lzr = new LengthOfLastWord();
 		String s = "   fly me   to   the moon  ";

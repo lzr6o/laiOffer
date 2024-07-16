@@ -1,27 +1,26 @@
 package leetcode;
 
 class LongestAscendingSubArray {
-	int longest(int[] array) {
-		if (array.length == 0) {
+	int longest(int[] arr) {
+		if (arr.length == 0) {
 			return 0;
 		}
-		int result = 1;
-		int cur = 1;
-		for (int i = 1; i < array.length; i++) {
-			if (array[i] > array[i - 1]) {
+		int res = 1, cur = 1;
+		for (int i = 1; i < arr.length; i++) {
+			if (arr[i] > arr[i - 1]) {
 				cur++;
-				result = Math.max(result, cur);
+				res = Math.max(res, cur);
 			} else {
 				cur = 1;
 			}
 		}
-		return result;
+		return res;
 	}
-	
+
 	public static void main(String[] args) {
 		LongestAscendingSubArray lzr = new LongestAscendingSubArray();
-		int[] array = { 7, 2, 3, 1, 5, 8, 9, 6 };
-		int result = lzr.longest(array);
-		System.out.print(result);
+		int[] arr = { 7, 2, 3, 1, 5, 8, 9, 6 };
+		int res = lzr.longest(arr);
+		System.out.print(res);
 	}
 }

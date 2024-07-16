@@ -14,11 +14,11 @@ class LongestConsecutive1s {
 		}
 		return res;
 	}
-	
+
 	public static void main(String[] args) {
 		LongestConsecutive1s lzr = new LongestConsecutive1s();
-		int[] array = { 0, 1, 0, 1, 1, 1, 0 };
-		int result = lzr.longest(array);
-		System.out.print(result);
+		int[] arr = { 0, 1, 0, 1, 1, 1, 0 };
+		int res = lzr.longest(arr);
+		System.out.print(res);
 	}
 }

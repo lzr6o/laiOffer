@@ -1,32 +1,32 @@
 package leetcode;
+
 class LastOccurrence {
-	int lastOccur(int[] array, int target) {
-		if (array == null || array.length == 0) {
+	int lastOccur(int[] arr, int target) {
+		if (arr == null || arr.length == 0) {
 			return -1;
 		}
-		int left = 0;
-		int right = array.length - 1;
-		while (left < right - 1) {
-			int mid = left + (right - left) / 2;
-			if (array[mid] <= target) {
-				left = mid;
+		int L = 0, R = arr.length - 1;
+		while (L < R - 1) {
+			int mid = L + (R - L) / 2;
+			if (arr[mid] <= target) {
+				L = mid;
 			} else {
-				right = mid;
+				R = mid;
 			}
 		}
-		if (array[right] == target) {
-			return right;
-		} else if (array[left] == target) {
-			return left;
+		if (arr[R] == target) {
+			return R;
+		} else if (arr[L] == target) {
+			return L;
 		}
 		return -1;
 	}
-	
+
 	public static void main(String[] args) {
 		LastOccurrence lzr = new LastOccurrence();
-		int[] array = { 4, 5, 5, 5, 5, 5, 5 };
+		int[] arr = { 4, 5, 5, 5, 5, 5, 5 };
 		int target = 5;
-		int result = lzr.lastOccur(array, target);
-		System.out.print(result);
+		int res = lzr.lastOccur(arr, target);
+		System.out.print(res);
 	}
 }

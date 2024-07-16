@@ -1,4 +1,5 @@
 package leetcode;
+
 class LongestCrossOf1s {
 	int largest(int[][] matrix) {
 		int n = matrix.length;
@@ -15,14 +16,14 @@ class LongestCrossOf1s {
 	}
 
 	int merge(int[][] leftUp, int[][] rightDown, int n, int m) {
-		int result = 0;
+		int res = 0;
 		for (int i = 0; i < n; i++) {
 			for (int j = 0; j < m; j++) {
 				leftUp[i][j] = Math.min(leftUp[i][j], rightDown[i][j]);
-				result = Math.max(result, leftUp[i][j]);
+				res = Math.max(res, leftUp[i][j]);
 			}
 		}
-		return result;
+		return res;
 	}
 
 	int[][] leftUp(int[][] matrix, int n, int m) {
@@ -80,7 +81,7 @@ class LongestCrossOf1s {
 	public static void main(String[] args) {
 		LongestCrossOf1s lzr = new LongestCrossOf1s();
 		int[][] matrix = { { 0, 0, 0, 0 }, { 1, 1, 1, 1 }, { 0, 1, 1, 1 }, { 1, 0, 1, 1 } };
-		int result = lzr.largest(matrix);
-		System.out.print(result);
+		int res = lzr.largest(matrix);
+		System.out.print(res);
 	}
 }

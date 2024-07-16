@@ -1,15 +1,6 @@
 package leetcode;
+
 class LowestCommonAncestorOfABST {
-	class TreeNode {
-		int val;
-		TreeNode left;
-		TreeNode right;
-
-		TreeNode(int x) {
-			val = x;
-		}
-	}
-
 	TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
 		while (true) {
 			if (p.val > root.val && q.val > root.val) {
@@ -21,8 +12,8 @@ class LowestCommonAncestorOfABST {
 			}
 		}
 	}
-	
+
 	public static void main(String[] args) {
-		
+		LowestCommonAncestorOfABST lzr = new LowestCommonAncestorOfABST();
 	}
 }

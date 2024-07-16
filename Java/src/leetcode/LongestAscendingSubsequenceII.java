@@ -1,4 +1,5 @@
 package leetcode;
+
 import java.util.Arrays;
 
 class LongestAscendingSubsequenceII {
@@ -36,7 +37,7 @@ class LongestAscendingSubsequenceII {
 		}
 		return res;
 	}
-	
+
 	public static void main(String[] args) {
 		LongestAscendingSubsequenceII lzr = new LongestAscendingSubsequenceII();
 		int[] arr = { 5, 2, 6, 3, 4, 7, 5, 1 };

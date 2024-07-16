@@ -1,16 +1,18 @@
 package leetcode;
+
 class LowestCommonAncestorII {
 	class TreeNodeP {
 		int key;
 		TreeNodeP left;
 		TreeNodeP right;
 		TreeNodeP parent;
+
 		TreeNodeP(int key, TreeNodeP parent) {
 			this.key = key;
 			this.parent = parent;
 		}
 	}
-	
+
 	TreeNodeP lowestCommonAncestor(TreeNodeP one, TreeNodeP two) {
 		int l1 = length(one);
 		int l2 = length(two);
@@ -20,7 +22,7 @@ class LowestCommonAncestorII {
 			return mergeNode(two, one, l1 - l2);
 		}
 	}
-	
+
 	TreeNodeP mergeNode(TreeNodeP shorter, TreeNodeP longer, int diff) {
 		while (diff > 0) {
 			longer = longer.parent;
@@ -32,7 +34,7 @@ class LowestCommonAncestorII {
 		}
 		return longer;
 	}
-	
+
 	int length(TreeNodeP node) {
 		int length = 0;
 		while (node != null) {
@@ -41,7 +43,7 @@ class LowestCommonAncestorII {
 		}
 		return length;
 	}
-	
+
 	public static void main(String[] args) {
 		LowestCommonAncestorII lzr = new LowestCommonAncestorII();
 	}

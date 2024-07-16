@@ -1,4 +1,5 @@
 package leetcode;
+
 class MinimumCostForTickets {
 	int mincostTickets(int[] days, int[] costs) {
 		int seven = 0;
@@ -16,10 +17,10 @@ class MinimumCostForTickets {
 		}
 		return dp[dp.length - 1];
 	}
-	
+
 	public static void main(String[] args) {
 		MinimumCostForTickets lzr = new MinimumCostForTickets();
-		int[] days = { 1,4,6,9,10,11,12,13,14,15,16,17,18,20,21,22,23,27,28 };
+		int[] days = { 1, 4, 6, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 20, 21, 22, 23, 27, 28 };
 		int[] costs = { 3, 13, 45 };
 		int res = lzr.mincostTickets(days, costs);
 		System.out.print(res);

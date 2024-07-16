@@ -1,4 +1,5 @@
 package leetcode;
+
 class LongestCommonSubstring {
 	String longestCommon(String source, String target) {
 		int head = 0;

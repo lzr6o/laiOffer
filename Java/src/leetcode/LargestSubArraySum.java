@@ -1,18 +1,19 @@
 package leetcode;
+
 class LargestSubArraySum {
-	int largestSum(int[] array) {
-		int result = array[0], cur = array[0];
-		for (int i = 1; i < array.length; i++) {
-			cur = Math.max(cur + array[i], array[i]);
-			result = Math.max(result, cur);
+	int largestSum(int[] arr) {
+		int res = arr[0], cur = arr[0];
+		for (int i = 1; i < arr.length; i++) {
+			cur = Math.max(cur + arr[i], arr[i]);
+			res = Math.max(res, cur);
 		}
-		return result;
+		return res;
 	}
-	
+
 	public static void main(String[] args) {
 		LargestSubArraySum lzr = new LargestSubArraySum();
-		int[] array = { 2, -1, 4, -2, 1 };
-		int result = lzr.largestSum(array);
-		System.out.print(result);
+		int[] arr = { 2, -1, 4, -2, 1 };
+		int res = lzr.largestSum(arr);
+		System.out.print(res);
 	}
 }

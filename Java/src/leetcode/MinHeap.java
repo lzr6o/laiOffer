@@ -1,124 +1,126 @@
 package leetcode;
+
 import java.util.Arrays;
 import java.util.NoSuchElementException;
 
 class MinHeap {
-	int[] array;
+	int[] arr;
 	int size;
-	MinHeap(int[] array) {
-		if (array == null || array.length == 0) {
+
+	MinHeap(int[] arr) {
+		if (arr == null || arr.length == 0) {
 			throw new IllegalArgumentException("input array can not be null or empty");
 		}
-		this.array = array;
-		size = array.length;
+		this.arr = arr;
+		size = arr.length;
 		heapify();
 	}
-	
+
 	void heapify() {
 		for (int i = size / 2 - 1; i >= 0; i--) {
 			percolateDown(i);
 		}
 	}
-	
+
 	MinHeap(int cap) {
 		if (cap <= 0) {
 			throw new IllegalArgumentException("capacity can not be <= 0");
 		}
-		array = new int[cap];
+		arr = new int[cap];
 		size = 0;
 	}
-	
+
 	int size() {
 		return size;
 	}
-	
+
 	boolean isEmpty() {
 		return size == 0;
 	}
-	
+
 	boolean isFull() {
-		return size == array.length;
+		return size == arr.length;
 	}
-	
-	void percolateUp(int index) {
-		while (index > 0) {
-			int parentIndex = (index - 1) / 2;
-			if (array[parentIndex] > array[index]) {
-				swap(parentIndex, index);
+
+	void percolateUp(int idx) {
+		while (idx > 0) {
+			int parentIndex = (idx - 1) / 2;
+			if (arr[parentIndex] > arr[idx]) {
+				swap(parentIndex, idx);
 			} else {
 				break;
 			}
-			index = parentIndex;
+			idx = parentIndex;
 		}
 	}
-	
-	void percolateDown(int index) {
-		while (index <= size / 2 - 1) {
-			int leftChildIndex = index * 2 + 1;
-			int rightChildIndex = index * 2 + 2;
+
+	void percolateDown(int idx) {
+		while (idx <= size / 2 - 1) {
+			int leftChildIndex = idx * 2 + 1;
+			int rightChildIndex = idx * 2 + 2;
 			int swapCandidate = leftChildIndex;
-			if (rightChildIndex <= size - 1 && array[leftChildIndex] >= array[rightChildIndex]) {
+			if (rightChildIndex <= size - 1 && arr[leftChildIndex] >= arr[rightChildIndex]) {
 				swapCandidate = rightChildIndex;
 			}
-			if (array[index] > array[swapCandidate]) {
-				swap(index, swapCandidate);
+			if (arr[idx] > arr[swapCandidate]) {
+				swap(idx, swapCandidate);
 			} else {
 				break;
 			}
-			index = swapCandidate;
+			idx = swapCandidate;
 		}
 	}
-	
+
 	void swap(int i, int j) {
-		int tmp = array[i];
-		array[i] = array[j];
-		array[j] = tmp;
+		int tmp = arr[i];
+		arr[i] = arr[j];
+		arr[j] = tmp;
 	}
-	
+
 	int peek() {
 		if (size == 0) {
 			throw new NoSuchElementException("heap is empty");
 		}
-		return array[0];
+		return arr[0];
 	}
-	
+
 	int poll() {
 		if (size == 0) {
 			throw new NoSuchElementException("heap is empty");
 		}
-		int result = array[0];
-		array[0] = array[size - 1];
+		int res = arr[0];
+		arr[0] = arr[size - 1];
 		size--;
 		percolateDown(0);
-		return result;
+		return res;
 	}
-	
+
 	void offer(int ele) {
-		if (size == array.length) {
-			array = Arrays.copyOf(array, (int)(array.length * 1.5));
+		if (size == arr.length) {
+			arr = Arrays.copyOf(arr, (int) (arr.length * 1.5));
 		}
-		array[size] = ele;
+		arr[size] = ele;
 		size++;
 		percolateUp(size - 1);
 	}
-	
-	int update(int index, int ele) {
-		if (index < 0 || index > size - 1) {
+
+	int update(int idx, int ele) {
+		if (idx < 0 || idx > size - 1) {
 			throw new ArrayIndexOutOfBoundsException("invalid index range");
 		}
-		int result = array[index];
-		array[index] = ele;
+		int result = arr[idx];
+		arr[idx] = ele;
 		if (result > ele) {
-			percolateUp(index);
+			percolateUp(idx);
 		} else {
-			percolateDown(index);
+			percolateDown(idx);
 		}
 		return result;
 	}
-	
+
 	public static void main(String args[]) {
-		int[] array = { 5, 3, 1, 2, 4 };
-		MinHeap lzr = new MinHeap(array);
+		int[] arr = { 5, 3, 1, 2, 4 };
+		MinHeap lzr = new MinHeap(arr);
 		System.out.println(lzr.isEmpty());
 		System.out.println(lzr.size);
 	}

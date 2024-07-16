@@ -1,4 +1,5 @@
 package leetcode;
+
 class LongestIncreasingPathInAMatrix {
 	int longestIncreasingPath(int[][] matrix) {
 		int ROWS = matrix.length, COLS = matrix[0].length, res = Integer.MIN_VALUE;

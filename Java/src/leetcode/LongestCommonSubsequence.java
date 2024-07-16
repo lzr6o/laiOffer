@@ -1,4 +1,5 @@
 package leetcode;
+
 class LongestCommonSubsequence {
 	int longest(String one, String two) {
 		int m = one.length(), n = two.length();

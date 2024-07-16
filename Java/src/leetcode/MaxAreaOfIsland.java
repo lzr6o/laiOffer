@@ -1,4 +1,5 @@
 package leetcode;
+
 class MaxAreaOfIsland {
 	int maxAreaOfIsland(int[][] grid) {
 		int ROWS = grid.length, COLS = grid[0].length;
@@ -18,8 +19,8 @@ class MaxAreaOfIsland {
 			return 0;
 		}
 		grid[r][c] = 0;
-		return (1 + dfs(grid, r - 1, c, ROWS, COLS) + dfs(grid, r + 1, c, ROWS, COLS)
-				+ dfs(grid, r, c - 1, ROWS, COLS) + dfs(grid, r, c + 1, ROWS, COLS));
+		return (1 + dfs(grid, r - 1, c, ROWS, COLS) + dfs(grid, r + 1, c, ROWS, COLS) + dfs(grid, r, c - 1, ROWS, COLS)
+				+ dfs(grid, r, c + 1, ROWS, COLS));
 	}
 
 	public static void main(String[] args) {

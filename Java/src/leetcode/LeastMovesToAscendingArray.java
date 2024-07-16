@@ -1,4 +1,5 @@
 package leetcode;
+
 class LeastMovesToAscendingArray {
 	int leastMoves(int[] arr) {
 		int[] tails = new int[arr.length];
@@ -20,7 +21,7 @@ class LeastMovesToAscendingArray {
 		}
 		return arr.length - len;
 	}
-	
+
 	public static void main(String[] args) {
 		LeastMovesToAscendingArray lzr = new LeastMovesToAscendingArray();
 		int[] arr = { 1, 5, 9, 3, 6, 8 };

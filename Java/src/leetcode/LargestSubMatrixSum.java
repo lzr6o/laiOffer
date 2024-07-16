@@ -1,4 +1,5 @@
 package leetcode;
+
 class LargestSubMatrixSum {
 	int largest(int[][] matrix) {
 		int m = matrix.length;
@@ -32,11 +33,8 @@ class LargestSubMatrixSum {
 
 	public static void main(String[] args) {
 		LargestSubMatrixSum lzr = new LargestSubMatrixSum();
-		int[][] matrix = { { 1, -2, -1, 4 },
-				           { 1, -1,  1, 1 },
-				           { 0, -1, -1, 1 },
-				           { 0,  0,  1, 1 } };
-		int result = lzr.largest(matrix);
-		System.out.print(result);
+		int[][] matrix = { { 1, -2, -1, 4 }, { 1, -1, 1, 1 }, { 0, -1, -1, 1 }, { 0, 0, 1, 1 } };
+		int res = lzr.largest(matrix);
+		System.out.print(res);
 	}
 }

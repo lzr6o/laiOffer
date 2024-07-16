@@ -1,37 +1,38 @@
 package leetcode;
+
 import java.util.Arrays;
 
 class LargestSubArraySumII {
-	int[] largestSum(int[] array) {
-		int max = array[0], cur = array[0];
+	int[] largestSum(int[] arr) {
+		int max = arr[0], cur = arr[0];
 		int head = 0, tail = 0;
-		int[] result = new int[3];
-		result[0] = max;
-		result[1] = head;
-		result[2] = tail;
-		for (int i = 1; i < array.length; i++) {
-			if (cur + array[i] > array[i]) {
-				cur += array[i];
+		int[] res = new int[3];
+		res[0] = max;
+		res[1] = head;
+		res[2] = tail;
+		for (int i = 1; i < arr.length; i++) {
+			if (cur + arr[i] > arr[i]) {
+				cur += arr[i];
 				tail++;
 			} else {
-				cur = array[i];
+				cur = arr[i];
 				head = i;
 				tail = i;
 			}
 			if (cur > max) {
 				max = cur;
-				result[0] = max;
-				result[1] = head;
-				result[2] = tail;
+				res[0] = max;
+				res[1] = head;
+				res[2] = tail;
 			}
 		}
-		return result;
+		return res;
 	}
-	
+
 	public static void main(String[] args) {
 		LargestSubArraySumII lzr = new LargestSubArraySumII();
-		int[] array = { -1 };
-		int[] result = lzr.largestSum(array);
-		System.out.print(Arrays.toString(result));
+		int[] arr = { -1 };
+		int[] res = lzr.largestSum(arr);
+		System.out.print(Arrays.toString(res));
 	}
 }

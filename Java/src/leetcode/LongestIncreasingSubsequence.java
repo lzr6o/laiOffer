@@ -1,4 +1,5 @@
 package leetcode;
+
 class LongestIncreasingSubsequence {
 	int lengthOfLIS(int[] nums) {
 		int[] tails = new int[nums.length];

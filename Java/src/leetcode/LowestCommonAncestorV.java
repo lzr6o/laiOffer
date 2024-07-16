@@ -1,4 +1,5 @@
 package leetcode;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -6,12 +7,13 @@ class LowestCommonAncestorV {
 	static class KnaryTreeNode {
 		int key;
 		List<KnaryTreeNode> children;
+
 		KnaryTreeNode(int key) {
 			this.key = key;
 			this.children = new ArrayList<>();
 		}
 	}
-	
+
 	KnaryTreeNode lowestCommonAncestor(KnaryTreeNode root, KnaryTreeNode one, KnaryTreeNode two) {
 		if (root == null || root == one || root == two) {
 			return root;
@@ -30,7 +32,7 @@ class LowestCommonAncestorV {
 		}
 		return found;
 	}
-	
+
 	public static void main(String[] args) {
 		LowestCommonAncestorV lzr = new LowestCommonAncestorV();
 		KnaryTreeNode Node5 = new KnaryTreeNode(5);
