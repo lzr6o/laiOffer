@@ -4,7 +4,6 @@ import java.util.HashMap;
 import java.util.Map;
 
 class DegreeOfAnArray {
-
 	int findShortestSubArray(int[] nums) {
 		Map<Integer, Integer> map = new HashMap<>();
 		int cnt = 0;
@@ -25,10 +24,10 @@ class DegreeOfAnArray {
 		}
 		return res;
 	}
-	
+
 	public static void main(String[] args) {
 		DegreeOfAnArray lzr = new DegreeOfAnArray();
-		int[] nums = {1, 2, 2, 3, 1};
+		int[] nums = { 1, 2, 2, 3, 1 };
 		int res = lzr.findShortestSubArray(nums);
 		System.out.print(res);
 	}

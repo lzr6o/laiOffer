@@ -1,4 +1,5 @@
 package leetcode;
+
 class DeepCopySkipList {
 	class SkipListNode {
 		int value;
