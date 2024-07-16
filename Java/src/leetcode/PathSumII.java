@@ -4,7 +4,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 class PathSumII {
-	
 	List<List<Integer>> pathSum(TreeNode root, int targetSum) {
 		List<Integer> cur = new ArrayList<>();
 		List<List<Integer>> res = new ArrayList<>();

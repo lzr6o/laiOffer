@@ -1,4 +1,5 @@
 package leetcode;
+
 class NumberOfConnectedComponentsInAnUndirectedGraph {
 	int countComponents(int n, int[][] edges) {
 		int[] cnt = new int[1];

@@ -1,4 +1,5 @@
 package leetcode;
+
 class NumberOfIslands {
 	int numIslands(char[][] grid) {
 		int ROWS = grid.length, COLS = grid[0].length;

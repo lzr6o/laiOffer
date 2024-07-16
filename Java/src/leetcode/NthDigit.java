@@ -1,13 +1,14 @@
 package leetcode;
+
 class NthDigit {
 	int findNthDigit(int n) {
 		int len = 1;
-		long count = 9;
+		long cnt = 9;
 		int start = 1;
-		while (n > len * count) {
-			n -= len * count;
+		while (n > len * cnt) {
+			n -= len * cnt;
 			len += 1;
-			count *= 10;
+			cnt *= 10;
 			start *= 10;
 		}
 		start += (n - 1) / len;

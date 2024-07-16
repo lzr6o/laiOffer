@@ -1,4 +1,5 @@
 package leetcode;
+
 import java.util.ArrayDeque;
 
 class OnlineStockSpan {

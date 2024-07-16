@@ -1,13 +1,14 @@
 package leetcode;
+
 class PowerOfTwo {
-	boolean isPowerOfTwo(int number) {
-		return number > 0 && (number & (number - 1)) == 0;
+	boolean isPowerOfTwo(int num) {
+		return num > 0 && (num & (num - 1)) == 0;
 	}
 	
 	public static void main(String[] args) {
 		PowerOfTwo lzr = new PowerOfTwo();
-		int number = 16;
-		boolean result = lzr.isPowerOfTwo(number);
-		System.out.print(result);
+		int num = 16;
+		boolean res = lzr.isPowerOfTwo(num);
+		System.out.print(res);
 	}
 }

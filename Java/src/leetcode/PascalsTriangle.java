@@ -4,7 +4,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 class PascalsTriangle {
-	
 	List<List<Integer>> generate(int numRows) {
 		List<List<Integer>> res = new ArrayList<>();
 		for (int i = 0; i < numRows; i++) {

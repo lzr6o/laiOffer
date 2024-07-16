@@ -1,5 +1,4 @@
 package leetcode;
-import java.util.Arrays;
 
 class OneThreeTwoPattern {
 	boolean find132pattern(int[] nums) {
@@ -12,7 +11,6 @@ class OneThreeTwoPattern {
 				third = nums[top++];
 			}
 			nums[--top] = nums[i];
-			System.out.println(Arrays.toString(nums) + "     "  + third);
 		}
 		return false;
 	}
