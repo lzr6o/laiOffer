@@ -18,7 +18,7 @@ class LongestSubstringWithAtLeastKRepeatingCharacters {
 			if (cnt[i] < k && cnt[i] > 0) {
 				for (int j = start; j < end; j++) {
 					if (str[j] == i + 'a') {
-						int left = dfs(str, start, j, k);
+						int left = dfs(str, start, j ,k);
 						int right = dfs(str, j + 1, end, k);
 						return Math.max(left, right);
 					}
@@ -27,7 +27,7 @@ class LongestSubstringWithAtLeastKRepeatingCharacters {
 		}
 		return end - start;
 	}
-
+	
 	public static void main(String[] args) {
 		LongestSubstringWithAtLeastKRepeatingCharacters lzr = new LongestSubstringWithAtLeastKRepeatingCharacters();
 		String s = "bbaaacbd";
