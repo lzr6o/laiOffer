@@ -6,7 +6,6 @@ import java.util.List;
 import java.util.Map;
 
 class FindEventualSafeStates {
-
 	List<Integer> eventualSafeNodes(int[][] graph) {
 		List<Integer> res = new ArrayList<>();
 		Map<Integer, Boolean> safe = new HashMap<>();

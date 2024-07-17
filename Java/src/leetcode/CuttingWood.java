@@ -1,7 +1,6 @@
 package leetcode;
 
 class CuttingWood {
-
 	int minCost(int[] cuts, int len) {
 		int[] arr = new int[cuts.length + 2];
 		arr[0] = 0;

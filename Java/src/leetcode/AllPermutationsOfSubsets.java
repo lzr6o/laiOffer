@@ -13,7 +13,7 @@ class AllPermutationsOfSubsets {
 		helper(arr, 0, res);
 		return res;
 	}
-	
+
 	void helper(char[] arr, int idx, List<String> res) {
 		res.add(new String(arr, 0, idx));
 		for (int i = idx; i < arr.length; i++) {
@@ -22,13 +22,13 @@ class AllPermutationsOfSubsets {
 			swap(arr, idx, i);
 		}
 	}
-	
-	void swap(char[] arr, int left, int right) {
-		char tmp = arr[left];
-		arr[left] = arr[right];
-		arr[right] = tmp;
+
+	void swap(char[] arr, int L, int R) {
+		char tmp = arr[L];
+		arr[L] = arr[R];
+		arr[R] = tmp;
 	}
-	
+
 	public static void main(String[] args) {
 		AllPermutationsOfSubsets lzr = new AllPermutationsOfSubsets();
 		String set = "abc";

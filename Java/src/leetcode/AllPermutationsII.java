@@ -31,10 +31,10 @@ class AllPermutationsII {
 		}
 	}
 
-	void swap(char[] arr, int left, int right) {
-		char tmp = arr[left];
-		arr[left] = arr[right];
-		arr[right] = tmp;
+	void swap(char[] arr, int L, int R) {
+		char tmp = arr[L];
+		arr[L] = arr[R];
+		arr[R] = tmp;
 	}
 
 	public static void main(String args[]) {

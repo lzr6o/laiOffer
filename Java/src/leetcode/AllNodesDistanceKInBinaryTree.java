@@ -4,7 +4,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 class AllNodesDistanceKInBinaryTree {
-	
 	List<Integer> distanceK(TreeNode root, TreeNode target, int k) {
 		TreeNode[] prev = new TreeNode[1];
 		List<Integer> res = new ArrayList<>();

@@ -6,7 +6,6 @@ import java.util.List;
 import java.util.Map;
 
 class AllAnagrams {
-
 	List<Integer> allAnagrams(String s, String l) {
 		List<Integer> res = new ArrayList<>();
 		if (l.length() == 0) {
@@ -42,7 +41,7 @@ class AllAnagrams {
 		}
 		return res;
 	}
-	
+
 	Map<Character, Integer> countMap(String s) {
 		Map<Character, Integer> map = new HashMap<>();
 		for (char ch : s.toCharArray()) {
@@ -55,7 +54,7 @@ class AllAnagrams {
 		}
 		return map;
 	}
-	
+
 	public static void main(String args[]) {
 		AllAnagrams lzr = new AllAnagrams();
 		String s = "ab";
