@@ -8,7 +8,6 @@ import java.util.Map;
 import java.util.Set;
 
 class CourseSchedule {
-
 	boolean canFinish(int numCourses, int[][] prerequisites) {
 		Map<Integer, List<Integer>> preReq = new HashMap<>();
 		for (int i = 0; i < numCourses; i++) {
@@ -43,7 +42,7 @@ class CourseSchedule {
 		preReq.put(crs, null);
 		return true;
 	}
-	
+
 	public static void main(String[] args) {
 		CourseSchedule lzr = new CourseSchedule();
 		int numCourses = 5;
