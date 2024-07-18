@@ -1,4 +1,4 @@
-package Code;
+package LintCode.BackpackIII;
 
 class BackpackIII {
 

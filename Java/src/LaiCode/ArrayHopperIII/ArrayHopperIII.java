@@ -1,4 +1,4 @@
-package Code;
+package LaiCode.ArrayHopperIII;
 
 class ArrayHopperIII {
 

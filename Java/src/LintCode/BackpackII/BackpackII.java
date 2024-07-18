@@ -1,4 +1,4 @@
-package Code;
+package LintCode.BackpackII;
 
 class BackpackII {
 	int backPackII(int m, int[] A, int[] V) {
