@@ -1,4 +1,5 @@
-package Code;
+package LeetCode.WordLadder;
+
 import java.util.Arrays;
 import java.util.HashSet;
 import java.util.List;

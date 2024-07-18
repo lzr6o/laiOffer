@@ -1,4 +1,5 @@
-package Code;
+package LeetCode.WordPatternII;
+
 import java.util.HashMap;
 import java.util.Map;
 
@@ -7,7 +8,7 @@ class WordPatternII {
 		Map<Character, String> map = new HashMap<>();
 		return dfs(map, pattern, s);
 	}
-	
+
 	boolean dfs(Map<Character, String> map, String pattern, String s) {
 		if (pattern.length() == 0) {
 			return s.length() == 0;
@@ -33,7 +34,7 @@ class WordPatternII {
 		}
 		return false;
 	}
-	
+
 	public static void main(String[] args) {
 		WordPatternII lzr = new WordPatternII();
 		String pattern = "abab";

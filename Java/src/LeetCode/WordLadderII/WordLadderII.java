@@ -1,4 +1,5 @@
-package Code;
+package LeetCode.WordLadderII;
+
 import java.util.ArrayDeque;
 import java.util.ArrayList;
 import java.util.Arrays;

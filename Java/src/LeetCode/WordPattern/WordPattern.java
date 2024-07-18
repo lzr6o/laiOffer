@@ -1,4 +1,4 @@
-package Code;
+package LeetCode.WordPattern;
 import java.util.HashMap;
 import java.util.Map;
 

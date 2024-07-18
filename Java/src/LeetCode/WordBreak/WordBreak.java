@@ -1,4 +1,4 @@
-package Code;
+package LeetCode.WordBreak;
 
 import java.util.Arrays;
 import java.util.List;
