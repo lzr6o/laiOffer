@@ -1,24 +1,6 @@
 package leetcode;
+
 class DeleteLeavesWithAGivenValue {
-	static class TreeNode {
-		int val;
-		TreeNode left;
-		TreeNode right;
-
-		TreeNode() {
-		}
-
-		TreeNode(int val) {
-			this.val = val;
-		}
-
-		TreeNode(int val, TreeNode left, TreeNode right) {
-			this.val = val;
-			this.left = left;
-			this.right = right;
-		}
-	}
-
 	TreeNode removeLeafNodes(TreeNode root, int target) {
 		if (root == null) {
 			return null;
@@ -34,6 +16,6 @@ class DeleteLeavesWithAGivenValue {
 		root.left = new TreeNode(2);
 		root.left.left = new TreeNode(2);
 		TreeNode res = lzr.removeLeafNodes(root, 2);
-		
+		TreeNode.print(res);
 	}
 }
