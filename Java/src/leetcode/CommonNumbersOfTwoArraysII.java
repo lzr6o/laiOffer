@@ -6,7 +6,6 @@ import java.util.List;
 import java.util.Map;
 
 class CommonNumbersOfTwoArraysII {
-
 	List<Integer> common(int[] a, int[] b) {
 		List<Integer> common = new ArrayList<Integer>();
 		Map<Integer, Integer> freqMap = new HashMap<>();
@@ -28,7 +27,7 @@ class CommonNumbersOfTwoArraysII {
 		common.sort(null);
 		return common;
 	}
-	
+
 	public static void main(String args[]) {
 		CommonNumbersOfTwoArraysII lzr = new CommonNumbersOfTwoArraysII();
 		int[] a = { 1, 2, 3, 2 };

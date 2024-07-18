@@ -1,7 +1,6 @@
 package leetcode;
 
 class CoinChangeII {
-
 	int change(int[] coins, int amount) {
 		int[] dp = new int[amount + 1];
 		dp[0] = 1;

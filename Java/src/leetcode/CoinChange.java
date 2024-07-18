@@ -3,7 +3,6 @@ package leetcode;
 import java.util.Arrays;
 
 class CoinChange {
-
 	int coinChange(int[] coins, int amount) {
 		int[] dp = new int[amount + 1];
 		Arrays.fill(dp, amount + 1);

@@ -14,10 +14,10 @@ class DeleteLeavesWithAGivenValue {
 		DeleteLeavesWithAGivenValue lzr = new DeleteLeavesWithAGivenValue();
 		Integer[] nodes = {1, 2, null, 2};
 		TreeNode root = TreeNode.build(nodes);
-		System.out.print("Old :" + "\n");
+		System.out.print("Before :" + "\n");
 		TreeNode.print(root);
 		TreeNode res = lzr.removeLeafNodes(root, 2);
-		System.out.print("New :" + "\n");
+		System.out.print("After :" + "\n");
 		TreeNode.print(res);
 	}
 }

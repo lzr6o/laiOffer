@@ -1,7 +1,6 @@
 package leetcode;
 
 class Candy {
-
 	int candy(int[] ratings) {
 		int idx = 0;
 		for (int i = 0; i < ratings.length; i++) {
@@ -34,7 +33,7 @@ class Candy {
 		}
 		return sum;
 	}
-	
+
 	public static void main(String[] args) {
 		Candy lzr = new Candy();
 		int[] ratings = { 1, 2, 2 };

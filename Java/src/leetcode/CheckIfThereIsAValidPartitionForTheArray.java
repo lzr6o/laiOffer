@@ -1,7 +1,6 @@
 package leetcode;
 
 class CheckIfThereIsAValidPartitionForTheArray {
-
 	boolean validPartition(int[] nums) {
 		int n = nums.length;
 		boolean[] dp = new boolean[n + 1];

@@ -4,26 +4,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 class BoundaryOfBinaryTree {
-
-	static class TreeNode {
-		int val;
-		TreeNode left;
-		TreeNode right;
-
-		TreeNode() {
-		}
-
-		TreeNode(int val) {
-			this.val = val;
-		}
-
-		TreeNode(int val, TreeNode left, TreeNode right) {
-			this.val = val;
-			this.left = left;
-			this.right = right;
-		}
-	}
-
 	List<Integer> boundaryOfBinaryTree(TreeNode root) {
 		List<Integer> res = new ArrayList<>();
 		if (root.left == null && root.right == null) {

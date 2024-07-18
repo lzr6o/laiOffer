@@ -3,7 +3,6 @@ package leetcode;
 import java.util.Arrays;
 
 class BoatsToSavePeople {
-
 	int numRescueBoats(int[] people, int limit) {
 		Arrays.sort(people);
 		int res = 0;

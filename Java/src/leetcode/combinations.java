@@ -4,7 +4,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 class combinations {
-
 	List<List<Integer>> combine(int n, int k) {
 		List<List<Integer>> combo = new ArrayList<>();
 		List<Integer> cur = new ArrayList<>();

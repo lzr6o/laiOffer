@@ -4,16 +4,6 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 class CheckIfBinaryTreeIsCompleted {
-	
-	static class TreeNode {
-		int key;
-		TreeNode left;
-		TreeNode right;
-		TreeNode(int key) {
-			this.key = key;
-		}
-	}
-	
 	boolean isCompleted(TreeNode root) {
 		if (root == null) {
 			return true;
@@ -40,7 +30,7 @@ class CheckIfBinaryTreeIsCompleted {
 		}
 		return true;
 	}
-	
+
 	public static void main(String[] args) {
 		CheckIfBinaryTreeIsCompleted lzr = new CheckIfBinaryTreeIsCompleted();
 		TreeNode tree = new TreeNode(5);

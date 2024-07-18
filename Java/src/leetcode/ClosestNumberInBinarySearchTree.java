@@ -1,26 +1,16 @@
 package leetcode;
 
 class ClosestNumberInBinarySearchTree {
-
-	static class TreeNode {
-		int key;
-		TreeNode left;
-		TreeNode right;
-		TreeNode(int key) {
-			this.key = key;
-		}
-	}
-	
 	int closest(TreeNode root, int target) {
-		int res = root.key;
+		int res = root.val;
 		while (root != null) {
-			if (root.key == target) {
-				return root.key;
+			if (root.val == target) {
+				return root.val;
 			} else {
-				if (Math.abs(root.key - target) < Math.abs(res - target)) {
-					res = root.key;
+				if (Math.abs(root.val - target) < Math.abs(res - target)) {
+					res = root.val;
 				}
-				if (root.key < target) {
+				if (root.val < target) {
 					root = root.right;
 				} else {
 					root = root.left;
@@ -29,7 +19,7 @@ class ClosestNumberInBinarySearchTree {
 		}
 		return res;
 	}
-	
+
 	public static void main(String[] args) {
 		ClosestNumberInBinarySearchTree lzr = new ClosestNumberInBinarySearchTree();
 		TreeNode tree = new TreeNode(5);

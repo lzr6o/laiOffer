@@ -1,7 +1,6 @@
 package leetcode;
 
 class ClimbingStairs {
-
 	int stairs(int n) {
 		int[] dp = new int[n + 1];
 		dp[0] = dp[1] = 1;

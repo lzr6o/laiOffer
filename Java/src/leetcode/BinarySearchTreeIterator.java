@@ -3,14 +3,13 @@ package leetcode;
 import java.util.Stack;
 
 class BinarySearchTreeIterator {
-
 	Stack<TreeNode> stack;
 
 	BinarySearchTreeIterator(TreeNode root) {
 		stack = new Stack<>();
 		pushAll(root);
 	}
-	
+
 	int next() {
 		TreeNode node = stack.pop();
 		pushAll(node.right);
@@ -27,9 +26,9 @@ class BinarySearchTreeIterator {
 			node = node.left;
 		}
 	}
-	
+
 	public static void main(String[] args) {
-		Integer[] nodes = {7, 3, 15, null, null, 9, 20};
+		Integer[] nodes = { 7, 3, 15, null, null, 9, 20 };
 		TreeNode root = TreeNode.build(nodes);
 		BinarySearchTreeIterator bSTIterator = new BinarySearchTreeIterator(root);
 		bSTIterator.next();

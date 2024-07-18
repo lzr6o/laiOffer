@@ -4,7 +4,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 class CombinationsOfCoins {
-
 	List<List<Integer>> combinations(int target, int[] coins) {
 		List<List<Integer>> res = new ArrayList<>();
 		List<Integer> cur = new ArrayList<>();

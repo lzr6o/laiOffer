@@ -7,7 +7,6 @@ import java.util.List;
 import java.util.Queue;
 
 class Bipartite {
-
 	static class GraphNode {
 		int key;
 		List<GraphNode> neighbors;

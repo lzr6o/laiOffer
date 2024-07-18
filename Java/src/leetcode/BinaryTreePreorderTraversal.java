@@ -4,7 +4,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 class BinaryTreePreorderTraversal {
-	
 	List<Integer> preorderTraversal(TreeNode root) {
 		List<Integer> res = new ArrayList<>();
 		preOrder(root, res);

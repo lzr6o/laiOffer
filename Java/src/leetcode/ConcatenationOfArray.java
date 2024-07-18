@@ -3,7 +3,6 @@ package leetcode;
 import java.util.Arrays;
 
 class ConcatenationOfArray {
-
 	int[] getConcatenation(int[] nums) {
 		int j = 0;
 		int[] ans = new int[nums.length * 2];

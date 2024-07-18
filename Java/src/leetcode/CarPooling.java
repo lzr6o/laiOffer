@@ -1,7 +1,6 @@
 package leetcode;
 
 class CarPooling {
-
 	boolean carPooling(int[][] trips, int capacity) {
 		int last = 0;
 		for (int[] trip : trips) {

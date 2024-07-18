@@ -1,7 +1,6 @@
 package leetcode;
 
 class BuyStockIII {
-
 	int maxProfit(int[] prices) {
 		int firstBuy = Integer.MAX_VALUE;
 		int secondBuy = Integer.MAX_VALUE;

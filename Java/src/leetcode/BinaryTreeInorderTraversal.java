@@ -4,7 +4,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 class BinaryTreeInorderTraversal {
-
 	List<Integer> inorderTraversal(TreeNode root) {
 		List<Integer> res = new ArrayList<>();
 		dfs(root, res);

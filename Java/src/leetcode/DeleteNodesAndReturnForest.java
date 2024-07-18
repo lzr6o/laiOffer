@@ -33,8 +33,11 @@ class DeleteNodesAndReturnForest {
 		DeleteNodesAndReturnForest lzr = new DeleteNodesAndReturnForest();
 		Integer[] nodes = { 1, 2, 3, 4, 5, 6, 7 };
 		TreeNode root = TreeNode.build(nodes);
+		System.out.print("Before :" + "\n");
+		TreeNode.print(root);
 		int[] to_delete = { 3, 5 };
 		List<TreeNode> res = lzr.delNodes(root, to_delete);
+		System.out.print("After :" + "\n");
 		TreeNode.print(root);
 		for (TreeNode node : res) {
 			System.out.print(node.val + " ");

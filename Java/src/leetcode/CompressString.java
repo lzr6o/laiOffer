@@ -1,7 +1,6 @@
 package leetcode;
 
 class CompressString {
-
 	String compress(String input) {
 		if (input == null || input.isEmpty()) {
 			return input;

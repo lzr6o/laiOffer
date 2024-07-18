@@ -1,14 +1,6 @@
 package leetcode;
+
 class DeleteInBinarySearchTree {
-	class TreeNode {
-		int key;
-		TreeNode left;
-		TreeNode right;
-		TreeNode(int key) {
-			this.key = key;
-		}
-	}
-	
 	TreeNode findSmallest(TreeNode cur) {
 		TreeNode prev = cur;
 		cur = cur.left;
@@ -19,15 +11,15 @@ class DeleteInBinarySearchTree {
 		prev.left = prev.left.right;
 		return cur;
 	}
-	
+
 	TreeNode deleteTree(TreeNode root, int key) {
 		if (root == null) {
 			return null;
 		}
-		if (root.key > key) {
+		if (root.val > key) {
 			root.left = deleteTree(root.left, key);
 			return root;
-		} else if (root.key < key) {
+		} else if (root.val < key) {
 			root.right = deleteTree(root.right, key);
 			return root;
 		}
@@ -45,7 +37,7 @@ class DeleteInBinarySearchTree {
 		smallest.right = root.right;
 		return smallest;
 	}
-	
+
 	public static void main(String args[]) {
 		
 	}

@@ -1,10 +1,10 @@
 package leetcode;
 
 class BinaryTreeTilt {
-	
-	int sum = 0;
-	
+	int sum;
+
 	int findTilt(TreeNode root) {
+		sum = 0;
 		dfs(root);
 		return sum;
 	}
@@ -18,7 +18,7 @@ class BinaryTreeTilt {
 		sum += Math.abs(left - right);
 		return left + right + root.val;
 	}
-	
+
 	public static void main(String[] args) {
 		BinaryTreeTilt lzr = new BinaryTreeTilt();
 		Integer[] nodes = { 1, 2, 3 };

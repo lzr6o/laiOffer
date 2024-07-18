@@ -6,7 +6,6 @@ import java.util.List;
 import java.util.Set;
 
 class CommonNumbersOfTwoArrays {
-
 	List<Integer> common(int[] a, int[] b) {
 		Set<Integer> set = new HashSet<Integer>();
 		List<Integer> common = new ArrayList<Integer>();
@@ -21,7 +20,7 @@ class CommonNumbersOfTwoArrays {
 		common.sort(null);
 		return common;
 	}
-	
+
 	public static void main(String args[]) {
 		CommonNumbersOfTwoArrays lzr = new CommonNumbersOfTwoArrays();
 		int[] a = { 1, 2, 3 };

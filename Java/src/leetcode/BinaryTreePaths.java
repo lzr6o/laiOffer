@@ -4,7 +4,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 class BinaryTreePaths {
-	
 	List<String> binaryTreePaths(TreeNode root) {
 		List<String> paths = new ArrayList<>();
 		dfs(root, "", paths);

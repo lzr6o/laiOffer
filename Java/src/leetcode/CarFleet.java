@@ -10,7 +10,7 @@ class CarFleet {
 			arr[i][0] = position[i];
 			arr[i][1] = speed[i];
 		}
-		Arrays.sort(arr, (a1,a2) -> a1[0] - a2[0]);
+		Arrays.sort(arr, (a1, a2) -> a1[0] - a2[0]);
 		Stack<Double> stack = new Stack<>();
 		for (int[] a : arr) {
 			double time = 1.0 * (target - a[0]) / a[1];

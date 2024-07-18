@@ -1,7 +1,6 @@
 package leetcode;
 
 class BuyStock {
-
 	int maxProfit(int[] prices) {
 		int res = 0, min = 0;
 		for (int i = 1; i < prices.length; i++) {

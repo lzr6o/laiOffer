@@ -1,7 +1,6 @@
 package leetcode;
 
 class CheckIfBinaryStringHasAtMostOneSegmentOfOnes {
-
 	boolean checkOnesSegment(String s) {
 		int check = 0;
 		for (int i = 0; i < s.length(); i++) {

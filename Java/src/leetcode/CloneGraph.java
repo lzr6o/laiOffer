@@ -6,7 +6,6 @@ import java.util.List;
 import java.util.Map;
 
 class CloneGraph {
-
 	class Node {
 		int val;
 		List<Node> neighbors;
@@ -34,7 +33,7 @@ class CloneGraph {
 		Map<Node, Node> map = new HashMap<>();
 		return dfs(node, map);
 	}
-	
+
 	Node dfs(Node node, Map<Node, Node> map) {
 		if (map.containsKey(node)) {
 			return map.get(node);
@@ -49,6 +48,6 @@ class CloneGraph {
 
 	public static void main(String[] args) {
 		CloneGraph lzr = new CloneGraph();
-		
+
 	}
 }

@@ -1,7 +1,6 @@
 package leetcode;
 
 class ClosestInSortedArray {
-
 	int closest(int[] arr, int target) {
 		if (arr == null || arr.length == 0) {
 			return -1;

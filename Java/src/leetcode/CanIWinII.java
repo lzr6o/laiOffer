@@ -1,7 +1,6 @@
 package leetcode;
 
 class CanIWinII {
-
 	int canWin(int[] nums) {
 		int len = nums.length;
 		int[][] dp = new int[len][len];

@@ -1,7 +1,6 @@
 package leetcode;
 
 class CanIWin {
-
 	boolean canIWin(int maxChoosableInteger, int desiredTotal) {
 		
 	}
