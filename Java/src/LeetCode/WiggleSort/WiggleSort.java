@@ -1,4 +1,5 @@
-package Code;
+package LeetCode.WiggleSort;
+
 import java.util.Arrays;
 
 class WiggleSort {
@@ -9,13 +10,13 @@ class WiggleSort {
 			}
 		}
 	}
-	
+
 	void swap(int[] arr, int left, int right) {
 		int tmp = arr[left];
 		arr[left] = arr[right];
 		arr[right] = tmp;
 	}
-	
+
 	public static void main(String[] args) {
 		WiggleSort lzr = new WiggleSort();
 		int[] nums = { 1, 5, 1, 1, 6, 4 };

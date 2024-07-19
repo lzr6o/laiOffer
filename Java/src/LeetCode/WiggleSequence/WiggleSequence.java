@@ -1,4 +1,5 @@
-package Code;
+package LeetCode.WiggleSequence;
+
 class WiggleSequence {
 	int wiggleMaxLength(int[] nums) {
 		if (nums.length == 0) {
@@ -19,7 +20,7 @@ class WiggleSequence {
 	public static void main(String[] args) {
 		WiggleSequence lzr = new WiggleSequence();
 		int[] nums = { 1, 7, 4, 9, 2, 5 };
-		int result = lzr.wiggleMaxLength(nums);
-		System.out.print(result);
+		int res = lzr.wiggleMaxLength(nums);
+		System.out.print(res);
 	}
 }
