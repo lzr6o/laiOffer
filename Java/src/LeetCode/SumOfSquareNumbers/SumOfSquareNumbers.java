@@ -1,4 +1,4 @@
-package Code;
+package LeetCode.SumOfSquareNumbers;
 
 class SumOfSquareNumbers {
 	boolean judgeSquareSum(int c) {
