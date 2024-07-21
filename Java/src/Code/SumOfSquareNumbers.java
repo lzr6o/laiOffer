@@ -1,4 +1,5 @@
 package Code;
+
 class SumOfSquareNumbers {
 	boolean judgeSquareSum(int c) {
 		long right = 1;
@@ -18,7 +19,7 @@ class SumOfSquareNumbers {
 		}
 		return false;
 	}
-	
+
 	public static void main(String[] args) {
 		SumOfSquareNumbers lzr = new SumOfSquareNumbers();
 		int c = 2147482647;

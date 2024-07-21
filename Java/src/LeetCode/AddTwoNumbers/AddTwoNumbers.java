@@ -1,6 +1,6 @@
 package LeetCode.AddTwoNumbers;
 
-import Code.ListNode;
+import LeetCode.ListNode.ListNode;
 
 class AddTwoNumbers {
 	ListNode addTwoNumbers(ListNode l1, ListNode l2) {

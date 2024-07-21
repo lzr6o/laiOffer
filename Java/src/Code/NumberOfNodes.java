@@ -1,5 +1,7 @@
 package Code;
 
+import LeetCode.ListNode.ListNode;
+
 class NumberOfNodes {
 	int numberOfNodes(ListNode head) {
 		int res = 0;

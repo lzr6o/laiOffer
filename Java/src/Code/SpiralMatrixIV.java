@@ -2,6 +2,8 @@ package Code;
 
 import java.util.Arrays;
 
+import LeetCode.ListNode.ListNode;
+
 class SpiralMatrixIV {
 	ListNode constructLinkedList(int[] arr) {
 		ListNode dummy = new ListNode(0);

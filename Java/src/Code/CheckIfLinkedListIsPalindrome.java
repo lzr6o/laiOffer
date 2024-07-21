@@ -1,5 +1,7 @@
 package Code;
 
+import LeetCode.ListNode.ListNode;
+
 class CheckIfLinkedListIsPalindrome {
 	boolean isPalindrome(ListNode head) {
 		if (head == null || head.next == null) {
