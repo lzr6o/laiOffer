@@ -1,4 +1,4 @@
-package Code.SurroundedRegions;
+package LeetCode.SurroundedRegions;
 
 class SurroundedRegions {
 	void solve(char[][] board) {

@@ -1,4 +1,5 @@
 package Code;
+
 class RemoveAdjacentRepeatedCharacters {
 	String deDup(String input) {
 		if (input == null) {
@@ -13,7 +14,7 @@ class RemoveAdjacentRepeatedCharacters {
 		}
 		return new String(arr, 0, end);
 	}
-	
+
 	public static void main(String args[]) {
 		RemoveAdjacentRepeatedCharacters lzr = new RemoveAdjacentRepeatedCharacters();
 		String input = "aabbbbazw";

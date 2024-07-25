@@ -1,30 +1,23 @@
 package Code;
+
+import TreeNode.TreeNode;
+
 class SubtreeWithMaximumAverage {
-	static class TreeNode {
-		int val;
-		TreeNode left, right;
-
-		TreeNode(int val) {
-			this.val = val;
-			this.left = this.right = null;
-		}
-	}
-
 	TreeNode findSubtree2(TreeNode root) {
 		TreeNode[] maxNode = new TreeNode[1];
 		double[] max = new double[] { Double.NEGATIVE_INFINITY };
-		helper(root, max, maxNode);
+		dfs(root, max, maxNode);
 		return maxNode[0];
 	}
 
-	int[] helper(TreeNode root, double[] max, TreeNode[] maxNode) {
+	int[] dfs(TreeNode root, double[] max, TreeNode[] maxNode) {
 		if (root == null) {
 			return new int[] { 0, 0 };
 		}
 		int sum = root.val;
 		int nodes = 1;
-		int[] left = helper(root.left, max, maxNode);
-		int[] right = helper(root.right, max, maxNode);
+		int[] left = dfs(root.left, max, maxNode);
+		int[] right = dfs(root.right, max, maxNode);
 		sum += left[0] + right[0];
 		nodes += left[1] + right[1];
 		double avg = (sum * 1.0) / nodes;

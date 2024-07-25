@@ -1,4 +1,5 @@
 package Code;
+
 class RemoveAdjacentRepeatedCharactersII {
 	String deDup(String input) {
 		if (input == null || input.length() < 3) {
