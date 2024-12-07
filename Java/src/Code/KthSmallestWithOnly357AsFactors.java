@@ -1,4 +1,5 @@
 package Code;
+
 import java.util.HashSet;
 import java.util.PriorityQueue;
 import java.util.Set;
@@ -28,7 +29,7 @@ class KthSmallestWithOnly357AsFactors {
 	public static void main(String[] args) {
 		KthSmallestWithOnly357AsFactors lzr = new KthSmallestWithOnly357AsFactors();
 		int k = 1;
-		long result = lzr.kth(k);
-		System.out.print(result);
+		long res = lzr.kth(k);
+		System.out.print(res);
 	}
 }

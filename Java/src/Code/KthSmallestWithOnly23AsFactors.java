@@ -1,4 +1,5 @@
 package Code;
+
 import java.util.Arrays;
 
 class KthSmallestWithOnly23AsFactors {
@@ -21,7 +22,7 @@ class KthSmallestWithOnly23AsFactors {
 	public static void main(String[] args) {
 		KthSmallestWithOnly23AsFactors lzr = new KthSmallestWithOnly23AsFactors();
 		int k = 8;
-		long result = lzr.kth(k);
-		System.out.print(result);
+		long res = lzr.kth(k);
+		System.out.print(res);
 	}
 }
