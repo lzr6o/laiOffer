@@ -1,4 +1,5 @@
 package LeetCode.TargetSum;
+
 class TargetSum {
 	int findTargetSumWays(int[] nums, int target) {
 		int[] cnt = new int[1];

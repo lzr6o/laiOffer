@@ -1,0 +1,4 @@
+/Users/lzr/Desktop/laiOffer/C++/cmake-build-debug/CMakeFiles/CMakeCXXCompilerId.dir
+/Users/lzr/Desktop/laiOffer/C++/cmake-build-debug/CMakeFiles/PartitionList.dir
+/Users/lzr/Desktop/laiOffer/C++/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/lzr/Desktop/laiOffer/C++/cmake-build-debug/CMakeFiles/rebuild_cache.dir
