@@ -1,0 +1,141 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.26"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "LeetCode",
+					"childIndexes" : 
+					[
+						2
+					],
+					"jsonFile" : "directory-LeetCode-Debug-6f8b69b8f59283aa59f8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.26"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "LeetCode"
+				},
+				{
+					"build" : "LeetCode/src",
+					"childIndexes" : 
+					[
+						3
+					],
+					"jsonFile" : "directory-LeetCode.src-Debug-369f8bb1a28a903b25ff.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.26"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "LeetCode/src"
+				},
+				{
+					"build" : "LeetCode/src/PartitionList",
+					"jsonFile" : "directory-LeetCode.src.PartitionList-Debug-a152e75d6844c405c8da.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.26"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 3,
+					"source" : "LeetCode/src/PartitionList",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "C++"
+				},
+				{
+					"childIndexes" : 
+					[
+						2
+					],
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "LeetCode",
+					"parentIndex" : 0
+				},
+				{
+					"childIndexes" : 
+					[
+						3
+					],
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "SRC",
+					"parentIndex" : 1
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "partitionList",
+					"parentIndex" : 2,
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 3,
+					"id" : "partitionlist::@6019517091ffadb2a1c0",
+					"jsonFile" : "target-partitionlist-Debug-880ec0c6c4fe750e7804.json",
+					"name" : "partitionlist",
+					"projectIndex" : 3
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/lzr/Desktop/laiOffer/C++/cmake-build-debug",
+		"source" : "/Users/lzr/Desktop/laiOffer/C++"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

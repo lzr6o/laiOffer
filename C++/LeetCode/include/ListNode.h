@@ -2,6 +2,8 @@
  * Definition for singly-linked list.
 */
 
+#include <iostream>
+
 #ifndef LISTNODE_H
 #define LISTNODE_H
 

@@ -145,6 +145,15 @@
 			"isCMake" : true,
 			"isExternal" : true,
 			"path" : "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"path" : "LeetCode/CMakeLists.txt"
+		},
+		{
+			"path" : "LeetCode/src/CMakeLists.txt"
+		},
+		{
+			"path" : "LeetCode/src/PartitionList/CMakeLists.txt"
 		}
 	],
 	"kind" : "cmakeFiles",
