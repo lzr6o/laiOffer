@@ -11,17 +11,17 @@
 					"includeDirectories" : 
 					[
 						"/Library/Developer/CommandLineTools/usr/lib/clang/16/include",
-						"/Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/include",
+						"/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include",
 						"/Library/Developer/CommandLineTools/usr/include"
 					],
 					"linkDirectories" : 
 					[
-						"/Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/lib",
-						"/Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/lib/swift"
+						"/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/lib",
+						"/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/lib/swift"
 					],
 					"linkFrameworkDirectories" : 
 					[
-						"/Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/System/Library/Frameworks"
+						"/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/System/Library/Frameworks"
 					],
 					"linkLibraries" : []
 				},
@@ -43,19 +43,19 @@
 				{
 					"includeDirectories" : 
 					[
-						"/Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/include/c++/v1",
+						"/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1",
 						"/Library/Developer/CommandLineTools/usr/lib/clang/16/include",
-						"/Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/include",
+						"/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include",
 						"/Library/Developer/CommandLineTools/usr/include"
 					],
 					"linkDirectories" : 
 					[
-						"/Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/lib",
-						"/Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/lib/swift"
+						"/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/lib",
+						"/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/lib/swift"
 					],
 					"linkFrameworkDirectories" : 
 					[
-						"/Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/System/Library/Frameworks"
+						"/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/System/Library/Frameworks"
 					],
 					"linkLibraries" : 
 					[

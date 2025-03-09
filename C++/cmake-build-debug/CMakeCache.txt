@@ -146,7 +146,7 @@ CMAKE_OSX_DEPLOYMENT_TARGET:STRING=
 
 //The product will be built against the headers and libraries located
 // inside the indicated SDK.
-CMAKE_OSX_SYSROOT:PATH=/Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk
+CMAKE_OSX_SYSROOT:PATH=/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk
 
 //Value Computed by CMake
 CMAKE_PROJECT_DESCRIPTION:STATIC=
@@ -254,15 +254,6 @@ SRC_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
 SRC_SOURCE_DIR:STATIC=/Users/lzr/Desktop/laiOffer/C++/LeetCode/src
-
-//Value Computed by CMake
-Src_BINARY_DIR:STATIC=/Users/lzr/Desktop/laiOffer/C++/cmake-build-debug/LeetCode/Src
-
-//Value Computed by CMake
-Src_IS_TOP_LEVEL:STATIC=OFF
-
-//Value Computed by CMake
-Src_SOURCE_DIR:STATIC=/Users/lzr/Desktop/laiOffer/C++/LeetCode/Src
 
 //Value Computed by CMake
 partitionList_BINARY_DIR:STATIC=/Users/lzr/Desktop/laiOffer/C++/cmake-build-debug/LeetCode/src/PartitionList

@@ -807,7 +807,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "/Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk"
+			"value" : "/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk"
 		},
 		{
 			"name" : "CMAKE_PLATFORM_INFO_INITIALIZED",
@@ -1284,42 +1284,6 @@
 			],
 			"type" : "STATIC",
 			"value" : "/Users/lzr/Desktop/laiOffer/C++/LeetCode/src"
-		},
-		{
-			"name" : "Src_BINARY_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "/Users/lzr/Desktop/laiOffer/C++/cmake-build-debug/LeetCode/Src"
-		},
-		{
-			"name" : "Src_IS_TOP_LEVEL",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "OFF"
-		},
-		{
-			"name" : "Src_SOURCE_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "/Users/lzr/Desktop/laiOffer/C++/LeetCode/Src"
 		},
 		{
 			"name" : "partitionList_BINARY_DIR",
