@@ -1,9 +1,8 @@
 {
-	"archive" : {},
 	"artifacts" : 
 	[
 		{
-			"path" : "LeetCode/src/PartitionList/libpartitionlist.a"
+			"path" : "/Users/lzr/Desktop/laiOffer/C++/LeetCode/bin/partitionlist"
 		}
 	],
 	"backtrace" : 1,
@@ -11,7 +10,7 @@
 	{
 		"commands" : 
 		[
-			"add_library",
+			"add_executable",
 			"include_directories"
 		],
 		"files" : 
@@ -26,13 +25,13 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 8,
+				"line" : 7,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 6,
+				"line" : 5,
 				"parent" : 0
 			}
 		]
@@ -43,7 +42,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fcolor-diagnostics"
+					"fragment" : "-g -std=gnu++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fcolor-diagnostics"
 				}
 			],
 			"includes" : 
@@ -54,6 +53,14 @@
 				}
 			],
 			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "11"
+			},
 			"sourceIndexes" : 
 			[
 				0
@@ -61,8 +68,23 @@
 		}
 	],
 	"id" : "partitionlist::@6019517091ffadb2a1c0",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			}
+		],
+		"language" : "CXX"
+	},
 	"name" : "partitionlist",
-	"nameOnDisk" : "libpartitionlist.a",
+	"nameOnDisk" : "partitionlist",
 	"paths" : 
 	{
 		"build" : "LeetCode/src/PartitionList",
@@ -87,5 +109,5 @@
 			"sourceGroupIndex" : 0
 		}
 	],
-	"type" : "STATIC_LIBRARY"
+	"type" : "EXECUTABLE"
 }

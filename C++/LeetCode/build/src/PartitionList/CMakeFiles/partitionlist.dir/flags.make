@@ -6,7 +6,7 @@ CXX_DEFINES =
 
 CXX_INCLUDES = -I/Users/lzr/Desktop/laiOffer/C++/LeetCode/include
 
-CXX_FLAGSarm64 =  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk
+CXX_FLAGSarm64 =  -arch arm64
 
-CXX_FLAGS =  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk
+CXX_FLAGS =  -arch arm64
 

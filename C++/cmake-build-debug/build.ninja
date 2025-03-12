@@ -125,7 +125,7 @@ build LeetCode/src/rebuild_cache: phony LeetCode/src/CMakeFiles/rebuild_cache.ut
 # =============================================================================
 
 # =============================================================================
-# Object build statements for STATIC_LIBRARY target partitionlist
+# Object build statements for EXECUTABLE target partitionlist
 
 
 #############################################
@@ -135,27 +135,26 @@ build cmake_object_order_depends_target_partitionlist: phony || .
 
 build LeetCode/src/PartitionList/CMakeFiles/partitionlist.dir/partitionList.cpp.o: CXX_COMPILER__partitionlist_unscanned_Debug /Users/lzr/Desktop/laiOffer/C++/LeetCode/src/PartitionList/partitionList.cpp || cmake_object_order_depends_target_partitionlist
   DEP_FILE = LeetCode/src/PartitionList/CMakeFiles/partitionlist.dir/partitionList.cpp.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fcolor-diagnostics
   INCLUDES = -I/Users/lzr/Desktop/laiOffer/C++/LeetCode/include
   OBJECT_DIR = LeetCode/src/PartitionList/CMakeFiles/partitionlist.dir
   OBJECT_FILE_DIR = LeetCode/src/PartitionList/CMakeFiles/partitionlist.dir
 
 
 # =============================================================================
-# Link build statements for STATIC_LIBRARY target partitionlist
+# Link build statements for EXECUTABLE target partitionlist
 
 
 #############################################
-# Link the static library LeetCode/src/PartitionList/libpartitionlist.a
+# Link the executable /Users/lzr/Desktop/laiOffer/C++/LeetCode/bin/partitionlist
 
-build LeetCode/src/PartitionList/libpartitionlist.a: CXX_STATIC_LIBRARY_LINKER__partitionlist_Debug LeetCode/src/PartitionList/CMakeFiles/partitionlist.dir/partitionList.cpp.o
-  ARCH_FLAGS = -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk
-  LANGUAGE_COMPILE_FLAGS = -g
+build /Users/lzr/Desktop/laiOffer/C++/LeetCode/bin/partitionlist: CXX_EXECUTABLE_LINKER__partitionlist_Debug LeetCode/src/PartitionList/CMakeFiles/partitionlist.dir/partitionList.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk
   OBJECT_DIR = LeetCode/src/PartitionList/CMakeFiles/partitionlist.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = LeetCode/src/PartitionList/libpartitionlist.a
-  TARGET_PDB = partitionlist.a.dbg
+  TARGET_FILE = /Users/lzr/Desktop/laiOffer/C++/LeetCode/bin/partitionlist
+  TARGET_PDB = partitionlist.dbg
 
 
 #############################################
@@ -183,9 +182,7 @@ build LeetCode/src/PartitionList/rebuild_cache: phony LeetCode/src/PartitionList
 # =============================================================================
 # Target aliases.
 
-build libpartitionlist.a: phony LeetCode/src/PartitionList/libpartitionlist.a
-
-build partitionlist: phony LeetCode/src/PartitionList/libpartitionlist.a
+build partitionlist: phony /Users/lzr/Desktop/laiOffer/C++/LeetCode/bin/partitionlist
 
 # =============================================================================
 # Folder targets.
@@ -216,7 +213,7 @@ build LeetCode/src/all: phony LeetCode/src/PartitionList/all
 #############################################
 # Folder: /Users/lzr/Desktop/laiOffer/C++/cmake-build-debug/LeetCode/src/PartitionList
 
-build LeetCode/src/PartitionList/all: phony LeetCode/src/PartitionList/libpartitionlist.a
+build LeetCode/src/PartitionList/all: phony /Users/lzr/Desktop/laiOffer/C++/LeetCode/bin/partitionlist
 
 # =============================================================================
 # Built-in targets

@@ -1,1 +1,1 @@
-/Library/Developer/CommandLineTools/usr/bin/c++  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/partitionlist.dir/partitionList.cpp.o -o /Users/lzr/Desktop/laiOffer/C++/LeetCode/bin/partitionlist
+/Library/Developer/CommandLineTools/usr/bin/c++  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/partitionlist.dir/partitionList.cpp.o -o /Users/lzr/Desktop/laiOffer/C++/LeetCode/bin/partitionlist

@@ -1,6 +1,8 @@
 cmake_minimum_required(VERSION 3.26)
 project(LeetCode VERSION 1.0)
 
+set(CMAKE_CXX_STANDARD 11)
+
 # 定义变量
 # 静态库生成的路径
 #set(LIBPATH ${PROJECT_SOURCE_DIR}/lib)
