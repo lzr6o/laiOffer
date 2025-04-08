@@ -1,11 +1,7 @@
 # ninja log v6
+835	982	1744129418389155810	/Users/lzr/Desktop/laiOffer/C++/LeetCode/bin/partitionlist	e7c56af7034c1710
+5	835	1744129417559454664	LeetCode/src/PartitionList/CMakeFiles/partitionlist.dir/partitionList.cpp.o	ec7c0528c1a9eeb5
+3	100	1744129541028395158	build.ninja	30278e944f9931bc
 1	10	1733678909343866076	clean	ad90e366ad70d77b
-2	76	1741790900255621568	build.ninja	30278e944f9931bc
-2	549	1741792157493694836	LeetCode/src/PartitionList/CMakeFiles/partitionlist.dir/partitionList.cpp.o	ec4482018c6d259e
-551	687	1741792158042448917	/Users/lzr/Desktop/laiOffer/C++/LeetCode/bin/partitionlist	92d6f6f9b1f95dcd
-5	552	1741792234291532087	LeetCode/src/PartitionList/CMakeFiles/partitionlist.dir/partitionList.cpp.o	ec4482018c6d259e
-552	686	1741792234838827115	/Users/lzr/Desktop/laiOffer/C++/LeetCode/bin/partitionlist	92d6f6f9b1f95dcd
-6	578	1741793134975736228	LeetCode/src/PartitionList/CMakeFiles/partitionlist.dir/partitionList.cpp.o	ec4482018c6d259e
-578	698	1741793135547987073	/Users/lzr/Desktop/laiOffer/C++/LeetCode/bin/partitionlist	92d6f6f9b1f95dcd
-11	538	1741793333170258778	LeetCode/src/PartitionList/CMakeFiles/partitionlist.dir/partitionList.cpp.o	ec4482018c6d259e
-538	643	1741793333697268228	/Users/lzr/Desktop/laiOffer/C++/LeetCode/bin/partitionlist	92d6f6f9b1f95dcd
+2	978	1744129547625104068	LeetCode/src/TwoSum/CMakeFiles/twosum.dir/twosum.cpp.o	cca816e1b1a3dd14
+978	1160	1744129548601561185	/Users/lzr/Desktop/laiOffer/C++/LeetCode/bin/twosum	26ada1d7acaad4d6

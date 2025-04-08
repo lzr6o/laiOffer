@@ -7,3 +7,6 @@
 /Users/lzr/Desktop/laiOffer/C++/cmake-build-debug/LeetCode/src/PartitionList/CMakeFiles/partitionlist.dir
 /Users/lzr/Desktop/laiOffer/C++/cmake-build-debug/LeetCode/src/PartitionList/CMakeFiles/edit_cache.dir
 /Users/lzr/Desktop/laiOffer/C++/cmake-build-debug/LeetCode/src/PartitionList/CMakeFiles/rebuild_cache.dir
+/Users/lzr/Desktop/laiOffer/C++/cmake-build-debug/LeetCode/src/TwoSum/CMakeFiles/twosum.dir
+/Users/lzr/Desktop/laiOffer/C++/cmake-build-debug/LeetCode/src/TwoSum/CMakeFiles/edit_cache.dir
+/Users/lzr/Desktop/laiOffer/C++/cmake-build-debug/LeetCode/src/TwoSum/CMakeFiles/rebuild_cache.dir

@@ -14,6 +14,7 @@ set(HEADPATH ${PROJECT_SOURCE_DIR}/include)
 
 # 可执行程序的名字
 set(PARTITIONLIST partitionlist)
+set(TWOSUM twosum)
 
 # 给当前节点添加子目录
 add_subdirectory(src)

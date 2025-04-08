@@ -1,4 +1,4 @@
-# Install script for directory: /Users/lzr/Desktop/laiOffer/C++/LeetCode/src
+# Install script for directory: /Users/lzr/Desktop/laiOffer/C++/LeetCode/src/TwoSum
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -35,15 +35,5 @@ endif()
 # Set path to fallback-tool for dependency-resolution.
 if(NOT DEFINED CMAKE_OBJDUMP)
   set(CMAKE_OBJDUMP "/Library/Developer/CommandLineTools/usr/bin/objdump")
-endif()
-
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
-  include("/Users/lzr/Desktop/laiOffer/C++/cmake-build-debug/LeetCode/src/PartitionList/cmake_install.cmake")
-endif()
-
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
-  include("/Users/lzr/Desktop/laiOffer/C++/cmake-build-debug/LeetCode/src/TwoSum/cmake_install.cmake")
 endif()
 

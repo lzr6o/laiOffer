@@ -37,7 +37,8 @@
 					"build" : "LeetCode/src",
 					"childIndexes" : 
 					[
-						3
+						3,
+						4
 					],
 					"jsonFile" : "directory-LeetCode.src-Debug-369f8bb1a28a903b25ff.json",
 					"minimumCMakeVersion" : 
@@ -61,6 +62,21 @@
 					"targetIndexes" : 
 					[
 						0
+					]
+				},
+				{
+					"build" : "LeetCode/src/TwoSum",
+					"jsonFile" : "directory-LeetCode.src.TwoSum-Debug-51984e6989c12b34a61e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.26"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 4,
+					"source" : "LeetCode/src/TwoSum",
+					"targetIndexes" : 
+					[
+						1
 					]
 				}
 			],
@@ -93,7 +109,8 @@
 				{
 					"childIndexes" : 
 					[
-						3
+						3,
+						4
 					],
 					"directoryIndexes" : 
 					[
@@ -113,6 +130,18 @@
 					[
 						0
 					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "partitionList",
+					"parentIndex" : 2,
+					"targetIndexes" : 
+					[
+						1
+					]
 				}
 			],
 			"targets" : 
@@ -120,9 +149,16 @@
 				{
 					"directoryIndex" : 3,
 					"id" : "partitionlist::@6019517091ffadb2a1c0",
-					"jsonFile" : "target-partitionlist-Debug-d0c171129c978d50e63d.json",
+					"jsonFile" : "target-partitionlist-Debug-672f0af2b14294627e88.json",
 					"name" : "partitionlist",
 					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "twosum::@53b2bdd899669c87025d",
+					"jsonFile" : "target-twosum-Debug-0e570cf9f6b56b4f3c1e.json",
+					"name" : "twosum",
+					"projectIndex" : 4
 				}
 			]
 		}

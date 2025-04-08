@@ -33,4 +33,5 @@ int main() {
     int x = 3;
     ListNode *res = sol.partition(head, x);
     print(res);
+    return 0;
 }
