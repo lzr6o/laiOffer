@@ -2,6 +2,8 @@ package Code;
 
 import java.util.Stack;
 
+import Tree.TreeNode;
+
 class BinarySearchTreeIterator {
 	Stack<TreeNode> stack;
 

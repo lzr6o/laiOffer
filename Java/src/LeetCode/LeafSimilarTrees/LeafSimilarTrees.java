@@ -2,7 +2,8 @@ package LeetCode.LeafSimilarTrees;
 
 import java.util.ArrayList;
 import java.util.List;
-import TreeNode.TreeNode;
+
+import Tree.TreeNode;
 
 class LeafSimilarTrees {
 	boolean leafSimilar(TreeNode root1, TreeNode root2) {

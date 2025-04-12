@@ -1,5 +1,7 @@
 package Code;
 
+import Tree.TreeNode;
+
 class BinaryTreeDiameter {
 	int diameter(TreeNode root) {
 		int[] maxPath = new int[1];

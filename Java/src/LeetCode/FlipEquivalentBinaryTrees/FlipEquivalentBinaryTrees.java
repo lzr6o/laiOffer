@@ -1,6 +1,6 @@
 package LeetCode.FlipEquivalentBinaryTrees;
 
-import TreeNode.TreeNode;
+import Tree.TreeNode;
 
 class FlipEquivalentBinaryTrees {
 	boolean flipEquiv(TreeNode root1, TreeNode root2) {

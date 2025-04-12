@@ -4,7 +4,8 @@ import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
-import TreeNode.TreeNode;
+
+import Tree.TreeNode;
 
 class AverageOfLevelsInBinaryTree {
 

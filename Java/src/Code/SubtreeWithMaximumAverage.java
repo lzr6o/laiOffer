@@ -1,6 +1,6 @@
 package Code;
 
-import TreeNode.TreeNode;
+import Tree.TreeNode;
 
 class SubtreeWithMaximumAverage {
 	TreeNode findSubtree2(TreeNode root) {

@@ -8,7 +8,7 @@ import java.util.Queue;
 class NumberOfPeopleAwareOfASecret {
 	int peopleAwareOfSecret(int n, int delay, int forget) {
 		List<Integer> known = new ArrayList<>();
-		list.add();
+		known.add();
 		for (int i = 1; i < n; i++) {
 			
 		}

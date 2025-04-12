@@ -1,6 +1,6 @@
 package LeetCode.RootEqualsSumOfChildren;
 
-import TreeNode.TreeNode;
+import Tree.TreeNode;
 
 class RootEqualsSumOfChildren {
 	boolean checkTree(TreeNode root) {

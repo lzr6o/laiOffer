@@ -1,6 +1,6 @@
 package LeetCode.SumOfRootToLeafBinaryNumbers;
 
-import TreeNode.TreeNode;
+import Tree.TreeNode;
 
 class SumOfRootToLeafBinaryNumbers {
 	int sumRootToLeaf(TreeNode root) {

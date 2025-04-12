@@ -2,7 +2,8 @@ package LeetCode.AllNodesDistanceKInBinaryTree;
 
 import java.util.ArrayList;
 import java.util.List;
-import TreeNode.TreeNode;
+
+import Tree.TreeNode;
 
 class AllNodesDistanceKInBinaryTree {
 	List<Integer> distanceK(TreeNode root, TreeNode target, int k) {

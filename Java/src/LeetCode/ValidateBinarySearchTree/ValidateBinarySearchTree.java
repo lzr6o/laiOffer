@@ -1,6 +1,6 @@
 package LeetCode.ValidateBinarySearchTree;
 
-import TreeNode.TreeNode;
+import Tree.TreeNode;
 
 class ValidateBinarySearchTree {
 	boolean isValidBST(TreeNode root) {

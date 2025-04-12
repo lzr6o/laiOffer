@@ -1,6 +1,6 @@
 package LeetCode.AddOneRowToTree;
 
-import TreeNode.TreeNode;
+import Tree.TreeNode;
 
 class AddOneRowToTree {
 	TreeNode addOneRow(TreeNode root, int val, int depth) {

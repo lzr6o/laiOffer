@@ -1,6 +1,6 @@
 package LeetCode.SameTree;
 
-import TreeNode.TreeNode;
+import Tree.TreeNode;
 
 class SameTree {
 	boolean isSameTree(TreeNode p, TreeNode q) {

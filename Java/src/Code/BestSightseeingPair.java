@@ -1,7 +1,6 @@
 package Code;
 
 class BestSightseeingPair {
-
 	int maxScoreSightseeingPair(int[] arr) {
 		int max = Integer.MIN_VALUE;
 		int left = 0;

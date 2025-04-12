@@ -1,6 +1,6 @@
 package LeetCode.SumRootToLeafNumbers;
 
-import TreeNode.TreeNode;
+import Tree.TreeNode;
 
 class SumRootToLeafNumbers {
 	int sum = 0;

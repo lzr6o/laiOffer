@@ -2,6 +2,7 @@ package Code;
 
 import java.util.LinkedList;
 import java.util.Queue;
+import Tree.TreeNode;
 
 class MinimumDepthOfBinaryTree {
 	int minDepth(TreeNode root) {
