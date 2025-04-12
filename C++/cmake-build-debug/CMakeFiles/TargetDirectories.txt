@@ -4,12 +4,12 @@
 /Users/lzr/Desktop/laiOffer/C++/cmake-build-debug/LeetCode/CMakeFiles/rebuild_cache.dir
 /Users/lzr/Desktop/laiOffer/C++/cmake-build-debug/LeetCode/src/CMakeFiles/edit_cache.dir
 /Users/lzr/Desktop/laiOffer/C++/cmake-build-debug/LeetCode/src/CMakeFiles/rebuild_cache.dir
-/Users/lzr/Desktop/laiOffer/C++/cmake-build-debug/LeetCode/src/PartitionList/CMakeFiles/partitionlist.dir
+/Users/lzr/Desktop/laiOffer/C++/cmake-build-debug/LeetCode/src/PartitionList/CMakeFiles/PartitionList.dir
 /Users/lzr/Desktop/laiOffer/C++/cmake-build-debug/LeetCode/src/PartitionList/CMakeFiles/edit_cache.dir
 /Users/lzr/Desktop/laiOffer/C++/cmake-build-debug/LeetCode/src/PartitionList/CMakeFiles/rebuild_cache.dir
-/Users/lzr/Desktop/laiOffer/C++/cmake-build-debug/LeetCode/src/TwoSum/CMakeFiles/twosum.dir
+/Users/lzr/Desktop/laiOffer/C++/cmake-build-debug/LeetCode/src/TwoSum/CMakeFiles/TwoSum.dir
 /Users/lzr/Desktop/laiOffer/C++/cmake-build-debug/LeetCode/src/TwoSum/CMakeFiles/edit_cache.dir
 /Users/lzr/Desktop/laiOffer/C++/cmake-build-debug/LeetCode/src/TwoSum/CMakeFiles/rebuild_cache.dir
-/Users/lzr/Desktop/laiOffer/C++/cmake-build-debug/LeetCode/src/MergeTwo2DArraysBySummingValues/CMakeFiles/mergeTwo2DArraysBySummingValues.dir
+/Users/lzr/Desktop/laiOffer/C++/cmake-build-debug/LeetCode/src/MergeTwo2DArraysBySummingValues/CMakeFiles/MergeTwo2DArraysBySummingValues.dir
 /Users/lzr/Desktop/laiOffer/C++/cmake-build-debug/LeetCode/src/MergeTwo2DArraysBySummingValues/CMakeFiles/edit_cache.dir
 /Users/lzr/Desktop/laiOffer/C++/cmake-build-debug/LeetCode/src/MergeTwo2DArraysBySummingValues/CMakeFiles/rebuild_cache.dir

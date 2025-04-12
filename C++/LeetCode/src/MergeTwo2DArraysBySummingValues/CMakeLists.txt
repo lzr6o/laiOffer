@@ -11,5 +11,4 @@ set(EXECUTABLE_OUTPUT_PATH ${EXECPATH}) # 设置可执行文件生成的路径
 # -Wall -Wextra：启用额外警告（捕获潜在问题）
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -O0 -g")
 
-add_executable(${merge_two_2d_arrays_by_summing_values} ${SRC}
-        ../../include/Tree/TreeNode.h) # 生成可执行文件
+add_executable(${merge_two_2d_arrays_by_summing_values} ${SRC}) # 生成可执行文件

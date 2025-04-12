@@ -177,23 +177,23 @@
 			[
 				{
 					"directoryIndex" : 5,
-					"id" : "mergeTwo2DArraysBySummingValues::@376cd57e82f1586fd4bb",
-					"jsonFile" : "target-mergeTwo2DArraysBySummingValues-DEBUG-580e68095b07e313e784.json",
-					"name" : "mergeTwo2DArraysBySummingValues",
+					"id" : "MergeTwo2DArraysBySummingValues::@376cd57e82f1586fd4bb",
+					"jsonFile" : "target-MergeTwo2DArraysBySummingValues-DEBUG-4b2a29c913124e5b420e.json",
+					"name" : "MergeTwo2DArraysBySummingValues",
 					"projectIndex" : 5
 				},
 				{
 					"directoryIndex" : 3,
-					"id" : "partitionlist::@6019517091ffadb2a1c0",
-					"jsonFile" : "target-partitionlist-DEBUG-401362cff7419bb03ca5.json",
-					"name" : "partitionlist",
+					"id" : "PartitionList::@6019517091ffadb2a1c0",
+					"jsonFile" : "target-PartitionList-DEBUG-9959660ff86d9a624bab.json",
+					"name" : "PartitionList",
 					"projectIndex" : 3
 				},
 				{
 					"directoryIndex" : 4,
-					"id" : "twosum::@53b2bdd899669c87025d",
-					"jsonFile" : "target-twosum-DEBUG-f6bd2c8e5da422710e01.json",
-					"name" : "twosum",
+					"id" : "TwoSum::@53b2bdd899669c87025d",
+					"jsonFile" : "target-TwoSum-DEBUG-a984edb3dd74992c536d.json",
+					"name" : "TwoSum",
 					"projectIndex" : 4
 				}
 			]

@@ -125,36 +125,36 @@ build LeetCode/src/rebuild_cache: phony LeetCode/src/CMakeFiles/rebuild_cache.ut
 # =============================================================================
 
 # =============================================================================
-# Object build statements for EXECUTABLE target partitionlist
+# Object build statements for EXECUTABLE target PartitionList
 
 
 #############################################
-# Order-only phony target for partitionlist
+# Order-only phony target for PartitionList
 
-build cmake_object_order_depends_target_partitionlist: phony || .
+build cmake_object_order_depends_target_PartitionList: phony || .
 
-build LeetCode/src/PartitionList/CMakeFiles/partitionlist.dir/partitionList.cpp.o: CXX_COMPILER__partitionlist_unscanned_DEBUG /Users/lzr/Desktop/laiOffer/C++/LeetCode/src/PartitionList/partitionList.cpp || cmake_object_order_depends_target_partitionlist
-  DEP_FILE = LeetCode/src/PartitionList/CMakeFiles/partitionlist.dir/partitionList.cpp.o.d
+build LeetCode/src/PartitionList/CMakeFiles/PartitionList.dir/PartitionList.cpp.o: CXX_COMPILER__PartitionList_unscanned_DEBUG /Users/lzr/Desktop/laiOffer/C++/LeetCode/src/PartitionList/PartitionList.cpp || cmake_object_order_depends_target_PartitionList
+  DEP_FILE = LeetCode/src/PartitionList/CMakeFiles/PartitionList.dir/PartitionList.cpp.o.d
   FLAGS = -O0 -g -g -std=gnu++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk -fcolor-diagnostics
   INCLUDES = -I/Users/lzr/Desktop/laiOffer/C++/LeetCode/include
-  OBJECT_DIR = LeetCode/src/PartitionList/CMakeFiles/partitionlist.dir
-  OBJECT_FILE_DIR = LeetCode/src/PartitionList/CMakeFiles/partitionlist.dir
+  OBJECT_DIR = LeetCode/src/PartitionList/CMakeFiles/PartitionList.dir
+  OBJECT_FILE_DIR = LeetCode/src/PartitionList/CMakeFiles/PartitionList.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target partitionlist
+# Link build statements for EXECUTABLE target PartitionList
 
 
 #############################################
-# Link the executable /Users/lzr/Desktop/laiOffer/C++/LeetCode/bin/partitionlist
+# Link the executable /Users/lzr/Desktop/laiOffer/C++/LeetCode/bin/PartitionList
 
-build /Users/lzr/Desktop/laiOffer/C++/LeetCode/bin/partitionlist: CXX_EXECUTABLE_LINKER__partitionlist_DEBUG LeetCode/src/PartitionList/CMakeFiles/partitionlist.dir/partitionList.cpp.o
+build /Users/lzr/Desktop/laiOffer/C++/LeetCode/bin/PartitionList: CXX_EXECUTABLE_LINKER__PartitionList_DEBUG LeetCode/src/PartitionList/CMakeFiles/PartitionList.dir/PartitionList.cpp.o
   FLAGS = -O0 -g -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk
-  OBJECT_DIR = LeetCode/src/PartitionList/CMakeFiles/partitionlist.dir
+  OBJECT_DIR = LeetCode/src/PartitionList/CMakeFiles/PartitionList.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = /Users/lzr/Desktop/laiOffer/C++/LeetCode/bin/partitionlist
-  TARGET_PDB = partitionlist.dbg
+  TARGET_FILE = /Users/lzr/Desktop/laiOffer/C++/LeetCode/bin/PartitionList
+  TARGET_PDB = PartitionList.dbg
 
 
 #############################################
@@ -185,36 +185,36 @@ build LeetCode/src/PartitionList/rebuild_cache: phony LeetCode/src/PartitionList
 # =============================================================================
 
 # =============================================================================
-# Object build statements for EXECUTABLE target twosum
+# Object build statements for EXECUTABLE target TwoSum
 
 
 #############################################
-# Order-only phony target for twosum
+# Order-only phony target for TwoSum
 
-build cmake_object_order_depends_target_twosum: phony || .
+build cmake_object_order_depends_target_TwoSum: phony || .
 
-build LeetCode/src/TwoSum/CMakeFiles/twosum.dir/twosum.cpp.o: CXX_COMPILER__twosum_unscanned_DEBUG /Users/lzr/Desktop/laiOffer/C++/LeetCode/src/TwoSum/twosum.cpp || cmake_object_order_depends_target_twosum
-  DEP_FILE = LeetCode/src/TwoSum/CMakeFiles/twosum.dir/twosum.cpp.o.d
+build LeetCode/src/TwoSum/CMakeFiles/TwoSum.dir/TwoSum.cpp.o: CXX_COMPILER__TwoSum_unscanned_DEBUG /Users/lzr/Desktop/laiOffer/C++/LeetCode/src/TwoSum/TwoSum.cpp || cmake_object_order_depends_target_TwoSum
+  DEP_FILE = LeetCode/src/TwoSum/CMakeFiles/TwoSum.dir/TwoSum.cpp.o.d
   FLAGS = -O0 -g -g -std=gnu++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk -fcolor-diagnostics
   INCLUDES = -I/Users/lzr/Desktop/laiOffer/C++/LeetCode/include
-  OBJECT_DIR = LeetCode/src/TwoSum/CMakeFiles/twosum.dir
-  OBJECT_FILE_DIR = LeetCode/src/TwoSum/CMakeFiles/twosum.dir
+  OBJECT_DIR = LeetCode/src/TwoSum/CMakeFiles/TwoSum.dir
+  OBJECT_FILE_DIR = LeetCode/src/TwoSum/CMakeFiles/TwoSum.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target twosum
+# Link build statements for EXECUTABLE target TwoSum
 
 
 #############################################
-# Link the executable /Users/lzr/Desktop/laiOffer/C++/LeetCode/bin/twosum
+# Link the executable /Users/lzr/Desktop/laiOffer/C++/LeetCode/bin/TwoSum
 
-build /Users/lzr/Desktop/laiOffer/C++/LeetCode/bin/twosum: CXX_EXECUTABLE_LINKER__twosum_DEBUG LeetCode/src/TwoSum/CMakeFiles/twosum.dir/twosum.cpp.o
+build /Users/lzr/Desktop/laiOffer/C++/LeetCode/bin/TwoSum: CXX_EXECUTABLE_LINKER__TwoSum_DEBUG LeetCode/src/TwoSum/CMakeFiles/TwoSum.dir/TwoSum.cpp.o
   FLAGS = -O0 -g -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk
-  OBJECT_DIR = LeetCode/src/TwoSum/CMakeFiles/twosum.dir
+  OBJECT_DIR = LeetCode/src/TwoSum/CMakeFiles/TwoSum.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = /Users/lzr/Desktop/laiOffer/C++/LeetCode/bin/twosum
-  TARGET_PDB = twosum.dbg
+  TARGET_FILE = /Users/lzr/Desktop/laiOffer/C++/LeetCode/bin/TwoSum
+  TARGET_PDB = TwoSum.dbg
 
 
 #############################################
@@ -245,36 +245,36 @@ build LeetCode/src/TwoSum/rebuild_cache: phony LeetCode/src/TwoSum/CMakeFiles/re
 # =============================================================================
 
 # =============================================================================
-# Object build statements for EXECUTABLE target mergeTwo2DArraysBySummingValues
+# Object build statements for EXECUTABLE target MergeTwo2DArraysBySummingValues
 
 
 #############################################
-# Order-only phony target for mergeTwo2DArraysBySummingValues
+# Order-only phony target for MergeTwo2DArraysBySummingValues
 
-build cmake_object_order_depends_target_mergeTwo2DArraysBySummingValues: phony || .
+build cmake_object_order_depends_target_MergeTwo2DArraysBySummingValues: phony || .
 
-build LeetCode/src/MergeTwo2DArraysBySummingValues/CMakeFiles/mergeTwo2DArraysBySummingValues.dir/mergetwo2darraysbysummingvalues.cpp.o: CXX_COMPILER__mergeTwo2DArraysBySummingValues_unscanned_DEBUG /Users/lzr/Desktop/laiOffer/C++/LeetCode/src/MergeTwo2DArraysBySummingValues/mergetwo2darraysbysummingvalues.cpp || cmake_object_order_depends_target_mergeTwo2DArraysBySummingValues
-  DEP_FILE = LeetCode/src/MergeTwo2DArraysBySummingValues/CMakeFiles/mergeTwo2DArraysBySummingValues.dir/mergetwo2darraysbysummingvalues.cpp.o.d
+build LeetCode/src/MergeTwo2DArraysBySummingValues/CMakeFiles/MergeTwo2DArraysBySummingValues.dir/MergeTwo2DArraysBySummingValues.cpp.o: CXX_COMPILER__MergeTwo2DArraysBySummingValues_unscanned_DEBUG /Users/lzr/Desktop/laiOffer/C++/LeetCode/src/MergeTwo2DArraysBySummingValues/MergeTwo2DArraysBySummingValues.cpp || cmake_object_order_depends_target_MergeTwo2DArraysBySummingValues
+  DEP_FILE = LeetCode/src/MergeTwo2DArraysBySummingValues/CMakeFiles/MergeTwo2DArraysBySummingValues.dir/MergeTwo2DArraysBySummingValues.cpp.o.d
   FLAGS = -O0 -g -g -std=gnu++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk -fcolor-diagnostics
   INCLUDES = -I/Users/lzr/Desktop/laiOffer/C++/LeetCode/include
-  OBJECT_DIR = LeetCode/src/MergeTwo2DArraysBySummingValues/CMakeFiles/mergeTwo2DArraysBySummingValues.dir
-  OBJECT_FILE_DIR = LeetCode/src/MergeTwo2DArraysBySummingValues/CMakeFiles/mergeTwo2DArraysBySummingValues.dir
+  OBJECT_DIR = LeetCode/src/MergeTwo2DArraysBySummingValues/CMakeFiles/MergeTwo2DArraysBySummingValues.dir
+  OBJECT_FILE_DIR = LeetCode/src/MergeTwo2DArraysBySummingValues/CMakeFiles/MergeTwo2DArraysBySummingValues.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target mergeTwo2DArraysBySummingValues
+# Link build statements for EXECUTABLE target MergeTwo2DArraysBySummingValues
 
 
 #############################################
-# Link the executable /Users/lzr/Desktop/laiOffer/C++/LeetCode/bin/mergeTwo2DArraysBySummingValues
+# Link the executable /Users/lzr/Desktop/laiOffer/C++/LeetCode/bin/MergeTwo2DArraysBySummingValues
 
-build /Users/lzr/Desktop/laiOffer/C++/LeetCode/bin/mergeTwo2DArraysBySummingValues: CXX_EXECUTABLE_LINKER__mergeTwo2DArraysBySummingValues_DEBUG LeetCode/src/MergeTwo2DArraysBySummingValues/CMakeFiles/mergeTwo2DArraysBySummingValues.dir/mergetwo2darraysbysummingvalues.cpp.o
+build /Users/lzr/Desktop/laiOffer/C++/LeetCode/bin/MergeTwo2DArraysBySummingValues: CXX_EXECUTABLE_LINKER__MergeTwo2DArraysBySummingValues_DEBUG LeetCode/src/MergeTwo2DArraysBySummingValues/CMakeFiles/MergeTwo2DArraysBySummingValues.dir/MergeTwo2DArraysBySummingValues.cpp.o
   FLAGS = -O0 -g -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk
-  OBJECT_DIR = LeetCode/src/MergeTwo2DArraysBySummingValues/CMakeFiles/mergeTwo2DArraysBySummingValues.dir
+  OBJECT_DIR = LeetCode/src/MergeTwo2DArraysBySummingValues/CMakeFiles/MergeTwo2DArraysBySummingValues.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = /Users/lzr/Desktop/laiOffer/C++/LeetCode/bin/mergeTwo2DArraysBySummingValues
-  TARGET_PDB = mergeTwo2DArraysBySummingValues.dbg
+  TARGET_FILE = /Users/lzr/Desktop/laiOffer/C++/LeetCode/bin/MergeTwo2DArraysBySummingValues
+  TARGET_PDB = MergeTwo2DArraysBySummingValues.dbg
 
 
 #############################################
@@ -302,11 +302,11 @@ build LeetCode/src/MergeTwo2DArraysBySummingValues/rebuild_cache: phony LeetCode
 # =============================================================================
 # Target aliases.
 
-build mergeTwo2DArraysBySummingValues: phony /Users/lzr/Desktop/laiOffer/C++/LeetCode/bin/mergeTwo2DArraysBySummingValues
+build MergeTwo2DArraysBySummingValues: phony /Users/lzr/Desktop/laiOffer/C++/LeetCode/bin/MergeTwo2DArraysBySummingValues
 
-build partitionlist: phony /Users/lzr/Desktop/laiOffer/C++/LeetCode/bin/partitionlist
+build PartitionList: phony /Users/lzr/Desktop/laiOffer/C++/LeetCode/bin/PartitionList
 
-build twosum: phony /Users/lzr/Desktop/laiOffer/C++/LeetCode/bin/twosum
+build TwoSum: phony /Users/lzr/Desktop/laiOffer/C++/LeetCode/bin/TwoSum
 
 # =============================================================================
 # Folder targets.
@@ -337,21 +337,21 @@ build LeetCode/src/all: phony LeetCode/src/PartitionList/all LeetCode/src/TwoSum
 #############################################
 # Folder: /Users/lzr/Desktop/laiOffer/C++/cmake-build-debug/LeetCode/src/MergeTwo2DArraysBySummingValues
 
-build LeetCode/src/MergeTwo2DArraysBySummingValues/all: phony /Users/lzr/Desktop/laiOffer/C++/LeetCode/bin/mergeTwo2DArraysBySummingValues
+build LeetCode/src/MergeTwo2DArraysBySummingValues/all: phony /Users/lzr/Desktop/laiOffer/C++/LeetCode/bin/MergeTwo2DArraysBySummingValues
 
 # =============================================================================
 
 #############################################
 # Folder: /Users/lzr/Desktop/laiOffer/C++/cmake-build-debug/LeetCode/src/PartitionList
 
-build LeetCode/src/PartitionList/all: phony /Users/lzr/Desktop/laiOffer/C++/LeetCode/bin/partitionlist
+build LeetCode/src/PartitionList/all: phony /Users/lzr/Desktop/laiOffer/C++/LeetCode/bin/PartitionList
 
 # =============================================================================
 
 #############################################
 # Folder: /Users/lzr/Desktop/laiOffer/C++/cmake-build-debug/LeetCode/src/TwoSum
 
-build LeetCode/src/TwoSum/all: phony /Users/lzr/Desktop/laiOffer/C++/LeetCode/bin/twosum
+build LeetCode/src/TwoSum/all: phony /Users/lzr/Desktop/laiOffer/C++/LeetCode/bin/TwoSum
 
 # =============================================================================
 # Built-in targets

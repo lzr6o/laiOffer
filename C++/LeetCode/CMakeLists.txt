@@ -14,9 +14,9 @@ set(HEADPATH ${PROJECT_SOURCE_DIR}/include)
 # 库文件的名字
 
 # 可执行程序的名字
-set(partition_list partitionlist)
-set(two_sum twosum)
-set(merge_two_2d_arrays_by_summing_values mergeTwo2DArraysBySummingValues)
+set(partition_list PartitionList)
+set(two_sum TwoSum)
+set(merge_two_2d_arrays_by_summing_values MergeTwo2DArraysBySummingValues)
 
 # 给当前节点添加子目录
 add_subdirectory(src)
