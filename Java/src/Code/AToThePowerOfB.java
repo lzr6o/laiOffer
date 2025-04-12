@@ -1,7 +1,6 @@
 package Code;
 
 class AToThePowerOfB {
-
 	// 输入
 	// int a : base number
 	// int b ：index or power

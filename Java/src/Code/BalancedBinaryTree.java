@@ -1,26 +1,8 @@
 package Code;
 
+import TreeNode.TreeNode;
+
 class BalancedBinaryTree {
-
-	class TreeNode {
-		int val;
-		TreeNode left;
-		TreeNode right;
-
-		TreeNode() {
-		}
-
-		TreeNode(int val) {
-			this.val = val;
-		}
-
-		TreeNode(int val, TreeNode left, TreeNode right) {
-			this.val = val;
-			this.left = left;
-			this.right = right;
-		}
-	}
-
 	boolean isBalanced(TreeNode root) {
 		boolean[] res = new boolean[1];
 		res[0] = true;
