@@ -5,14 +5,14 @@
 
 using namespace std;
 
-class Solution {
+class TwoSum {
 public:
-    vector<int> twoSum(vector<int>& nums, int target) {
-        map<int, int> map;
+    vector<int> twoSum(vector<int> &nums, int target) {
+        unordered_map<int, int> map;
         for (int i = 0; i < nums.size(); i++) {
-            auto it = map.find(target - nums[i]);
-            if (it != map.end()) {
-                return {it, i};
+            int left = target - nums[i];
+            if (map.count(left)) {
+                return {map[left], i};
             }
             map[nums[i]] = i;
         }
@@ -21,10 +21,10 @@ public:
 };
 
 int main() {
-    Solution sol = Solution();
+    TwoSum lzr = TwoSum();
     vector<int> nums = {2, 7, 11, 15};
     int target = 9;
-    vector<int> res = sol.twoSum(nums, target);
+    vector<int> res = lzr.twoSum(nums, target);
     cout << "[" << res[0] << ", " << res[1] << "]" << endl;
     return 0;
 }

@@ -31,7 +31,7 @@ CMAKE_AR:FILEPATH=/Library/Developer/CommandLineTools/usr/bin/ar
 
 //Choose the type of build, options are: None Debug Release RelWithDebInfo
 // MinSizeRel ...
-CMAKE_BUILD_TYPE:STRING=Debug
+CMAKE_BUILD_TYPE:STRING=DEBUG
 
 //Enable colored diagnostics throughout.
 CMAKE_COLOR_DIAGNOSTICS:BOOL=ON
@@ -247,6 +247,24 @@ LeetCode_IS_TOP_LEVEL:STATIC=OFF
 LeetCode_SOURCE_DIR:STATIC=/Users/lzr/Desktop/laiOffer/C++/LeetCode
 
 //Value Computed by CMake
+MergeTwo2DArraysBySummingValues_BINARY_DIR:STATIC=/Users/lzr/Desktop/laiOffer/C++/cmake-build-debug/LeetCode/src/MergeTwo2DArraysBySummingValues
+
+//Value Computed by CMake
+MergeTwo2DArraysBySummingValues_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+MergeTwo2DArraysBySummingValues_SOURCE_DIR:STATIC=/Users/lzr/Desktop/laiOffer/C++/LeetCode/src/MergeTwo2DArraysBySummingValues
+
+//Value Computed by CMake
+PartitionList_BINARY_DIR:STATIC=/Users/lzr/Desktop/laiOffer/C++/cmake-build-debug/LeetCode/src/PartitionList
+
+//Value Computed by CMake
+PartitionList_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+PartitionList_SOURCE_DIR:STATIC=/Users/lzr/Desktop/laiOffer/C++/LeetCode/src/PartitionList
+
+//Value Computed by CMake
 SRC_BINARY_DIR:STATIC=/Users/lzr/Desktop/laiOffer/C++/cmake-build-debug/LeetCode/src
 
 //Value Computed by CMake
@@ -254,6 +272,24 @@ SRC_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
 SRC_SOURCE_DIR:STATIC=/Users/lzr/Desktop/laiOffer/C++/LeetCode/src
+
+//Value Computed by CMake
+TwoSum_BINARY_DIR:STATIC=/Users/lzr/Desktop/laiOffer/C++/cmake-build-debug/LeetCode/src/TwoSum
+
+//Value Computed by CMake
+TwoSum_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+TwoSum_SOURCE_DIR:STATIC=/Users/lzr/Desktop/laiOffer/C++/LeetCode/src/TwoSum
+
+//Value Computed by CMake
+mergeTwo2DArraysBySummingValues_BINARY_DIR:STATIC=/Users/lzr/Desktop/laiOffer/C++/cmake-build-debug/LeetCode/src/mergeTwo2DArraysBySummingValues
+
+//Value Computed by CMake
+mergeTwo2DArraysBySummingValues_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+mergeTwo2DArraysBySummingValues_SOURCE_DIR:STATIC=/Users/lzr/Desktop/laiOffer/C++/LeetCode/src/mergeTwo2DArraysBySummingValues
 
 //Value Computed by CMake
 partitionList_BINARY_DIR:STATIC=/Users/lzr/Desktop/laiOffer/C++/cmake-build-debug/LeetCode/src/TwoSum
@@ -357,7 +393,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=5
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=6
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

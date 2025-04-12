@@ -79,7 +79,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : "Debug"
+			"value" : "DEBUG"
 		},
 		{
 			"name" : "CMAKE_CACHEFILE_DIR",
@@ -739,7 +739,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "5"
+			"value" : "6"
 		},
 		{
 			"name" : "CMAKE_OBJCOPY",
@@ -1250,6 +1250,78 @@
 			"value" : "/Users/lzr/Desktop/laiOffer/C++/LeetCode"
 		},
 		{
+			"name" : "MergeTwo2DArraysBySummingValues_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/Users/lzr/Desktop/laiOffer/C++/cmake-build-debug/LeetCode/src/MergeTwo2DArraysBySummingValues"
+		},
+		{
+			"name" : "MergeTwo2DArraysBySummingValues_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "OFF"
+		},
+		{
+			"name" : "MergeTwo2DArraysBySummingValues_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/Users/lzr/Desktop/laiOffer/C++/LeetCode/src/MergeTwo2DArraysBySummingValues"
+		},
+		{
+			"name" : "PartitionList_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/Users/lzr/Desktop/laiOffer/C++/cmake-build-debug/LeetCode/src/PartitionList"
+		},
+		{
+			"name" : "PartitionList_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "OFF"
+		},
+		{
+			"name" : "PartitionList_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/Users/lzr/Desktop/laiOffer/C++/LeetCode/src/PartitionList"
+		},
+		{
 			"name" : "SRC_BINARY_DIR",
 			"properties" : 
 			[
@@ -1284,6 +1356,78 @@
 			],
 			"type" : "STATIC",
 			"value" : "/Users/lzr/Desktop/laiOffer/C++/LeetCode/src"
+		},
+		{
+			"name" : "TwoSum_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/Users/lzr/Desktop/laiOffer/C++/cmake-build-debug/LeetCode/src/TwoSum"
+		},
+		{
+			"name" : "TwoSum_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "OFF"
+		},
+		{
+			"name" : "TwoSum_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/Users/lzr/Desktop/laiOffer/C++/LeetCode/src/TwoSum"
+		},
+		{
+			"name" : "mergeTwo2DArraysBySummingValues_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/Users/lzr/Desktop/laiOffer/C++/cmake-build-debug/LeetCode/src/mergeTwo2DArraysBySummingValues"
+		},
+		{
+			"name" : "mergeTwo2DArraysBySummingValues_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "OFF"
+		},
+		{
+			"name" : "mergeTwo2DArraysBySummingValues_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/Users/lzr/Desktop/laiOffer/C++/LeetCode/src/mergeTwo2DArraysBySummingValues"
 		},
 		{
 			"name" : "partitionList_BINARY_DIR",

@@ -157,6 +157,9 @@
 		},
 		{
 			"path" : "LeetCode/src/TwoSum/CMakeLists.txt"
+		},
+		{
+			"path" : "LeetCode/src/MergeTwo2DArraysBySummingValues/CMakeLists.txt"
 		}
 	],
 	"kind" : "cmakeFiles",

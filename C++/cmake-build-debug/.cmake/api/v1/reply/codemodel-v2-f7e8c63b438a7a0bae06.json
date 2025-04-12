@@ -10,7 +10,7 @@
 					[
 						1
 					],
-					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"jsonFile" : "directory-.-DEBUG-f5ebdc15457944623624.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.26"
@@ -24,7 +24,7 @@
 					[
 						2
 					],
-					"jsonFile" : "directory-LeetCode-Debug-6f8b69b8f59283aa59f8.json",
+					"jsonFile" : "directory-LeetCode-DEBUG-6f8b69b8f59283aa59f8.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.26"
@@ -38,9 +38,10 @@
 					"childIndexes" : 
 					[
 						3,
-						4
+						4,
+						5
 					],
-					"jsonFile" : "directory-LeetCode.src-Debug-369f8bb1a28a903b25ff.json",
+					"jsonFile" : "directory-LeetCode.src-DEBUG-369f8bb1a28a903b25ff.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.26"
@@ -51,7 +52,7 @@
 				},
 				{
 					"build" : "LeetCode/src/PartitionList",
-					"jsonFile" : "directory-LeetCode.src.PartitionList-Debug-a152e75d6844c405c8da.json",
+					"jsonFile" : "directory-LeetCode.src.PartitionList-DEBUG-a152e75d6844c405c8da.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.26"
@@ -61,12 +62,12 @@
 					"source" : "LeetCode/src/PartitionList",
 					"targetIndexes" : 
 					[
-						0
+						1
 					]
 				},
 				{
 					"build" : "LeetCode/src/TwoSum",
-					"jsonFile" : "directory-LeetCode.src.TwoSum-Debug-51984e6989c12b34a61e.json",
+					"jsonFile" : "directory-LeetCode.src.TwoSum-DEBUG-51984e6989c12b34a61e.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.26"
@@ -76,11 +77,26 @@
 					"source" : "LeetCode/src/TwoSum",
 					"targetIndexes" : 
 					[
-						1
+						2
+					]
+				},
+				{
+					"build" : "LeetCode/src/MergeTwo2DArraysBySummingValues",
+					"jsonFile" : "directory-LeetCode.src.MergeTwo2DArraysBySummingValues-DEBUG-793c87a75be32fa5cf81.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.26"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 5,
+					"source" : "LeetCode/src/MergeTwo2DArraysBySummingValues",
+					"targetIndexes" : 
+					[
+						0
 					]
 				}
 			],
-			"name" : "Debug",
+			"name" : "DEBUG",
 			"projects" : 
 			[
 				{
@@ -110,7 +126,8 @@
 					"childIndexes" : 
 					[
 						3,
-						4
+						4,
+						5
 					],
 					"directoryIndexes" : 
 					[
@@ -124,11 +141,11 @@
 					[
 						3
 					],
-					"name" : "partitionList",
+					"name" : "PartitionList",
 					"parentIndex" : 2,
 					"targetIndexes" : 
 					[
-						0
+						1
 					]
 				},
 				{
@@ -136,27 +153,46 @@
 					[
 						4
 					],
-					"name" : "partitionList",
+					"name" : "TwoSum",
 					"parentIndex" : 2,
 					"targetIndexes" : 
 					[
-						1
+						2
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "MergeTwo2DArraysBySummingValues",
+					"parentIndex" : 2,
+					"targetIndexes" : 
+					[
+						0
 					]
 				}
 			],
 			"targets" : 
 			[
 				{
+					"directoryIndex" : 5,
+					"id" : "mergeTwo2DArraysBySummingValues::@376cd57e82f1586fd4bb",
+					"jsonFile" : "target-mergeTwo2DArraysBySummingValues-DEBUG-580e68095b07e313e784.json",
+					"name" : "mergeTwo2DArraysBySummingValues",
+					"projectIndex" : 5
+				},
+				{
 					"directoryIndex" : 3,
 					"id" : "partitionlist::@6019517091ffadb2a1c0",
-					"jsonFile" : "target-partitionlist-Debug-672f0af2b14294627e88.json",
+					"jsonFile" : "target-partitionlist-DEBUG-401362cff7419bb03ca5.json",
 					"name" : "partitionlist",
 					"projectIndex" : 3
 				},
 				{
 					"directoryIndex" : 4,
 					"id" : "twosum::@53b2bdd899669c87025d",
-					"jsonFile" : "target-twosum-Debug-0e570cf9f6b56b4f3c1e.json",
+					"jsonFile" : "target-twosum-DEBUG-f6bd2c8e5da422710e01.json",
 					"name" : "twosum",
 					"projectIndex" : 4
 				}

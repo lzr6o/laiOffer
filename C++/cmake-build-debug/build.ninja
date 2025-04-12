@@ -12,7 +12,7 @@
 
 # =============================================================================
 # Project: C++
-# Configurations: Debug
+# Configurations: DEBUG
 # =============================================================================
 
 #############################################
@@ -24,7 +24,7 @@ ninja_required_version = 1.5
 #############################################
 # Set configuration variable for custom commands.
 
-CONFIGURATION = Debug
+CONFIGURATION = DEBUG
 # =============================================================================
 # Include auxiliary files.
 
@@ -133,9 +133,9 @@ build LeetCode/src/rebuild_cache: phony LeetCode/src/CMakeFiles/rebuild_cache.ut
 
 build cmake_object_order_depends_target_partitionlist: phony || .
 
-build LeetCode/src/PartitionList/CMakeFiles/partitionlist.dir/partitionList.cpp.o: CXX_COMPILER__partitionlist_unscanned_Debug /Users/lzr/Desktop/laiOffer/C++/LeetCode/src/PartitionList/partitionList.cpp || cmake_object_order_depends_target_partitionlist
+build LeetCode/src/PartitionList/CMakeFiles/partitionlist.dir/partitionList.cpp.o: CXX_COMPILER__partitionlist_unscanned_DEBUG /Users/lzr/Desktop/laiOffer/C++/LeetCode/src/PartitionList/partitionList.cpp || cmake_object_order_depends_target_partitionlist
   DEP_FILE = LeetCode/src/PartitionList/CMakeFiles/partitionlist.dir/partitionList.cpp.o.d
-  FLAGS = -g -std=gnu++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk -fcolor-diagnostics
+  FLAGS = -O0 -g -g -std=gnu++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk -fcolor-diagnostics
   INCLUDES = -I/Users/lzr/Desktop/laiOffer/C++/LeetCode/include
   OBJECT_DIR = LeetCode/src/PartitionList/CMakeFiles/partitionlist.dir
   OBJECT_FILE_DIR = LeetCode/src/PartitionList/CMakeFiles/partitionlist.dir
@@ -148,8 +148,8 @@ build LeetCode/src/PartitionList/CMakeFiles/partitionlist.dir/partitionList.cpp.
 #############################################
 # Link the executable /Users/lzr/Desktop/laiOffer/C++/LeetCode/bin/partitionlist
 
-build /Users/lzr/Desktop/laiOffer/C++/LeetCode/bin/partitionlist: CXX_EXECUTABLE_LINKER__partitionlist_Debug LeetCode/src/PartitionList/CMakeFiles/partitionlist.dir/partitionList.cpp.o
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk
+build /Users/lzr/Desktop/laiOffer/C++/LeetCode/bin/partitionlist: CXX_EXECUTABLE_LINKER__partitionlist_DEBUG LeetCode/src/PartitionList/CMakeFiles/partitionlist.dir/partitionList.cpp.o
+  FLAGS = -O0 -g -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk
   OBJECT_DIR = LeetCode/src/PartitionList/CMakeFiles/partitionlist.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -193,9 +193,9 @@ build LeetCode/src/PartitionList/rebuild_cache: phony LeetCode/src/PartitionList
 
 build cmake_object_order_depends_target_twosum: phony || .
 
-build LeetCode/src/TwoSum/CMakeFiles/twosum.dir/twosum.cpp.o: CXX_COMPILER__twosum_unscanned_Debug /Users/lzr/Desktop/laiOffer/C++/LeetCode/src/TwoSum/twosum.cpp || cmake_object_order_depends_target_twosum
+build LeetCode/src/TwoSum/CMakeFiles/twosum.dir/twosum.cpp.o: CXX_COMPILER__twosum_unscanned_DEBUG /Users/lzr/Desktop/laiOffer/C++/LeetCode/src/TwoSum/twosum.cpp || cmake_object_order_depends_target_twosum
   DEP_FILE = LeetCode/src/TwoSum/CMakeFiles/twosum.dir/twosum.cpp.o.d
-  FLAGS = -g -std=gnu++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk -fcolor-diagnostics
+  FLAGS = -O0 -g -g -std=gnu++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk -fcolor-diagnostics
   INCLUDES = -I/Users/lzr/Desktop/laiOffer/C++/LeetCode/include
   OBJECT_DIR = LeetCode/src/TwoSum/CMakeFiles/twosum.dir
   OBJECT_FILE_DIR = LeetCode/src/TwoSum/CMakeFiles/twosum.dir
@@ -208,8 +208,8 @@ build LeetCode/src/TwoSum/CMakeFiles/twosum.dir/twosum.cpp.o: CXX_COMPILER__twos
 #############################################
 # Link the executable /Users/lzr/Desktop/laiOffer/C++/LeetCode/bin/twosum
 
-build /Users/lzr/Desktop/laiOffer/C++/LeetCode/bin/twosum: CXX_EXECUTABLE_LINKER__twosum_Debug LeetCode/src/TwoSum/CMakeFiles/twosum.dir/twosum.cpp.o
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk
+build /Users/lzr/Desktop/laiOffer/C++/LeetCode/bin/twosum: CXX_EXECUTABLE_LINKER__twosum_DEBUG LeetCode/src/TwoSum/CMakeFiles/twosum.dir/twosum.cpp.o
+  FLAGS = -O0 -g -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk
   OBJECT_DIR = LeetCode/src/TwoSum/CMakeFiles/twosum.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -240,7 +240,69 @@ build LeetCode/src/TwoSum/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
 build LeetCode/src/TwoSum/rebuild_cache: phony LeetCode/src/TwoSum/CMakeFiles/rebuild_cache.util
 
 # =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /Users/lzr/Desktop/laiOffer/C++/LeetCode/src/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target mergeTwo2DArraysBySummingValues
+
+
+#############################################
+# Order-only phony target for mergeTwo2DArraysBySummingValues
+
+build cmake_object_order_depends_target_mergeTwo2DArraysBySummingValues: phony || .
+
+build LeetCode/src/MergeTwo2DArraysBySummingValues/CMakeFiles/mergeTwo2DArraysBySummingValues.dir/mergetwo2darraysbysummingvalues.cpp.o: CXX_COMPILER__mergeTwo2DArraysBySummingValues_unscanned_DEBUG /Users/lzr/Desktop/laiOffer/C++/LeetCode/src/MergeTwo2DArraysBySummingValues/mergetwo2darraysbysummingvalues.cpp || cmake_object_order_depends_target_mergeTwo2DArraysBySummingValues
+  DEP_FILE = LeetCode/src/MergeTwo2DArraysBySummingValues/CMakeFiles/mergeTwo2DArraysBySummingValues.dir/mergetwo2darraysbysummingvalues.cpp.o.d
+  FLAGS = -O0 -g -g -std=gnu++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk -fcolor-diagnostics
+  INCLUDES = -I/Users/lzr/Desktop/laiOffer/C++/LeetCode/include
+  OBJECT_DIR = LeetCode/src/MergeTwo2DArraysBySummingValues/CMakeFiles/mergeTwo2DArraysBySummingValues.dir
+  OBJECT_FILE_DIR = LeetCode/src/MergeTwo2DArraysBySummingValues/CMakeFiles/mergeTwo2DArraysBySummingValues.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target mergeTwo2DArraysBySummingValues
+
+
+#############################################
+# Link the executable /Users/lzr/Desktop/laiOffer/C++/LeetCode/bin/mergeTwo2DArraysBySummingValues
+
+build /Users/lzr/Desktop/laiOffer/C++/LeetCode/bin/mergeTwo2DArraysBySummingValues: CXX_EXECUTABLE_LINKER__mergeTwo2DArraysBySummingValues_DEBUG LeetCode/src/MergeTwo2DArraysBySummingValues/CMakeFiles/mergeTwo2DArraysBySummingValues.dir/mergetwo2darraysbysummingvalues.cpp.o
+  FLAGS = -O0 -g -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk
+  OBJECT_DIR = LeetCode/src/MergeTwo2DArraysBySummingValues/CMakeFiles/mergeTwo2DArraysBySummingValues.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = /Users/lzr/Desktop/laiOffer/C++/LeetCode/bin/mergeTwo2DArraysBySummingValues
+  TARGET_PDB = mergeTwo2DArraysBySummingValues.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build LeetCode/src/MergeTwo2DArraysBySummingValues/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/lzr/Desktop/laiOffer/C++/cmake-build-debug/LeetCode/src/MergeTwo2DArraysBySummingValues && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build LeetCode/src/MergeTwo2DArraysBySummingValues/edit_cache: phony LeetCode/src/MergeTwo2DArraysBySummingValues/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build LeetCode/src/MergeTwo2DArraysBySummingValues/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/lzr/Desktop/laiOffer/C++/cmake-build-debug/LeetCode/src/MergeTwo2DArraysBySummingValues && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake --regenerate-during-build -S/Users/lzr/Desktop/laiOffer/C++ -B/Users/lzr/Desktop/laiOffer/C++/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build LeetCode/src/MergeTwo2DArraysBySummingValues/rebuild_cache: phony LeetCode/src/MergeTwo2DArraysBySummingValues/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
 # Target aliases.
+
+build mergeTwo2DArraysBySummingValues: phony /Users/lzr/Desktop/laiOffer/C++/LeetCode/bin/mergeTwo2DArraysBySummingValues
 
 build partitionlist: phony /Users/lzr/Desktop/laiOffer/C++/LeetCode/bin/partitionlist
 
@@ -268,7 +330,14 @@ build LeetCode/all: phony LeetCode/src/all
 #############################################
 # Folder: /Users/lzr/Desktop/laiOffer/C++/cmake-build-debug/LeetCode/src
 
-build LeetCode/src/all: phony LeetCode/src/PartitionList/all LeetCode/src/TwoSum/all
+build LeetCode/src/all: phony LeetCode/src/PartitionList/all LeetCode/src/TwoSum/all LeetCode/src/MergeTwo2DArraysBySummingValues/all
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/lzr/Desktop/laiOffer/C++/cmake-build-debug/LeetCode/src/MergeTwo2DArraysBySummingValues
+
+build LeetCode/src/MergeTwo2DArraysBySummingValues/all: phony /Users/lzr/Desktop/laiOffer/C++/LeetCode/bin/mergeTwo2DArraysBySummingValues
 
 # =============================================================================
 
@@ -291,14 +360,14 @@ build LeetCode/src/TwoSum/all: phony /Users/lzr/Desktop/laiOffer/C++/LeetCode/bi
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/UnixPaths.cmake /Users/lzr/Desktop/laiOffer/C++/CMakeLists.txt /Users/lzr/Desktop/laiOffer/C++/LeetCode/CMakeLists.txt /Users/lzr/Desktop/laiOffer/C++/LeetCode/src/CMakeLists.txt /Users/lzr/Desktop/laiOffer/C++/LeetCode/src/PartitionList/CMakeLists.txt /Users/lzr/Desktop/laiOffer/C++/LeetCode/src/TwoSum/CMakeLists.txt CMakeCache.txt CMakeFiles/3.30.5/CMakeCCompiler.cmake CMakeFiles/3.30.5/CMakeCXXCompiler.cmake CMakeFiles/3.30.5/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/UnixPaths.cmake /Users/lzr/Desktop/laiOffer/C++/CMakeLists.txt /Users/lzr/Desktop/laiOffer/C++/LeetCode/CMakeLists.txt /Users/lzr/Desktop/laiOffer/C++/LeetCode/src/CMakeLists.txt /Users/lzr/Desktop/laiOffer/C++/LeetCode/src/MergeTwo2DArraysBySummingValues/CMakeLists.txt /Users/lzr/Desktop/laiOffer/C++/LeetCode/src/PartitionList/CMakeLists.txt /Users/lzr/Desktop/laiOffer/C++/LeetCode/src/TwoSum/CMakeLists.txt CMakeCache.txt CMakeFiles/3.30.5/CMakeCCompiler.cmake CMakeFiles/3.30.5/CMakeCXXCompiler.cmake CMakeFiles/3.30.5/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/UnixPaths.cmake /Users/lzr/Desktop/laiOffer/C++/CMakeLists.txt /Users/lzr/Desktop/laiOffer/C++/LeetCode/CMakeLists.txt /Users/lzr/Desktop/laiOffer/C++/LeetCode/src/CMakeLists.txt /Users/lzr/Desktop/laiOffer/C++/LeetCode/src/PartitionList/CMakeLists.txt /Users/lzr/Desktop/laiOffer/C++/LeetCode/src/TwoSum/CMakeLists.txt CMakeCache.txt CMakeFiles/3.30.5/CMakeCCompiler.cmake CMakeFiles/3.30.5/CMakeCXXCompiler.cmake CMakeFiles/3.30.5/CMakeSystem.cmake: phony
+build /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/UnixPaths.cmake /Users/lzr/Desktop/laiOffer/C++/CMakeLists.txt /Users/lzr/Desktop/laiOffer/C++/LeetCode/CMakeLists.txt /Users/lzr/Desktop/laiOffer/C++/LeetCode/src/CMakeLists.txt /Users/lzr/Desktop/laiOffer/C++/LeetCode/src/MergeTwo2DArraysBySummingValues/CMakeLists.txt /Users/lzr/Desktop/laiOffer/C++/LeetCode/src/PartitionList/CMakeLists.txt /Users/lzr/Desktop/laiOffer/C++/LeetCode/src/TwoSum/CMakeLists.txt CMakeCache.txt CMakeFiles/3.30.5/CMakeCCompiler.cmake CMakeFiles/3.30.5/CMakeCXXCompiler.cmake CMakeFiles/3.30.5/CMakeSystem.cmake: phony
 
 
 #############################################

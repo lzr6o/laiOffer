@@ -1,7 +1,18 @@
 # ninja log v6
-835	982	1744129418389155810	/Users/lzr/Desktop/laiOffer/C++/LeetCode/bin/partitionlist	e7c56af7034c1710
-5	835	1744129417559454664	LeetCode/src/PartitionList/CMakeFiles/partitionlist.dir/partitionList.cpp.o	ec7c0528c1a9eeb5
-3	100	1744129541028395158	build.ninja	30278e944f9931bc
-1	10	1733678909343866076	clean	ad90e366ad70d77b
-2	978	1744129547625104068	LeetCode/src/TwoSum/CMakeFiles/twosum.dir/twosum.cpp.o	cca816e1b1a3dd14
-978	1160	1744129548601561185	/Users/lzr/Desktop/laiOffer/C++/LeetCode/bin/twosum	26ada1d7acaad4d6
+635	772	1744484445836846496	/Users/lzr/Desktop/laiOffer/C++/LeetCode/bin/mergeTwo2DArraysBySummingValues	d2f4a6cb1aafc575
+12	693	1744483985164258626	LeetCode/src/mergeTwo2DArraysBySummingValues/CMakeFiles/mergeTwo2DArraysBySummingValues.dir/mergetwo2darraysbysummingvalues.cpp.o	fb075709a52b1971
+4	733	1744482106044064997	LeetCode/src/PartitionList/CMakeFiles/partitionlist.dir/__/MergeTwo2DArraysBySummingValues/mergetwo2darraysbysummingvalues.cpp.o	bff0b61c17cadf09
+3	622	1744484445204998923	LeetCode/src/PartitionList/CMakeFiles/partitionlist.dir/partitionList.cpp.o	63e790397261e66b
+3	84	1744485093786722851	build.ninja	30278e944f9931bc
+1	7	1744484956939349230	clean	ad90e366ad70d77b
+11	709	1744484957201407778	LeetCode/src/TwoSum/CMakeFiles/twosum.dir/twosum.cpp.o	d4d2b365eddd675f
+622	773	1744484445824015798	/Users/lzr/Desktop/laiOffer/C++/LeetCode/bin/partitionlist	edcf4d322a58f1b2
+661	773	1744484445863156534	/Users/lzr/Desktop/laiOffer/C++/LeetCode/bin/twosum	e58eb7876f1bbf76
+11	709	1744484957201981794	LeetCode/src/MergeTwo2DArraysBySummingValues/CMakeFiles/mergeTwo2DArraysBySummingValues.dir/mergetwo2darraysbysummingvalues.cpp.o	f49498c0d49302ec
+2	75	1744485093786722851	build.ninja	30278e944f9931bc
+3	615	1744485093799297697	LeetCode/src/PartitionList/CMakeFiles/partitionlist.dir/partitionList.cpp.o	63e790397261e66b
+3	622	1744485093799774335	LeetCode/src/MergeTwo2DArraysBySummingValues/CMakeFiles/mergeTwo2DArraysBySummingValues.dir/mergetwo2darraysbysummingvalues.cpp.o	bfc1ddd2f6fa43e
+3	641	1744485093799605747	LeetCode/src/TwoSum/CMakeFiles/twosum.dir/twosum.cpp.o	4b7fe0aa81f2ea60
+641	759	1744485094437514226	/Users/lzr/Desktop/laiOffer/C++/LeetCode/bin/twosum	e58eb7876f1bbf76
+615	759	1744485094412065900	/Users/lzr/Desktop/laiOffer/C++/LeetCode/bin/partitionlist	edcf4d322a58f1b2
+622	759	1744485094418759543	/Users/lzr/Desktop/laiOffer/C++/LeetCode/bin/mergeTwo2DArraysBySummingValues	d2f4a6cb1aafc575
