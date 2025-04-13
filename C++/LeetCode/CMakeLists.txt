@@ -7,9 +7,19 @@ set(CMAKE_CXX_STANDARD 11)
 # 静态库生成的路径
 #set(LIBPATH ${PROJECT_SOURCE_DIR}/lib)
 # 可执行程序的存储目录
-set(EXECPATH ${PROJECT_SOURCE_DIR}/bin)
+set(EXEC_PATH ${PROJECT_SOURCE_DIR}/bin)
+
 # 头文件路径
-set(HEADPATH ${PROJECT_SOURCE_DIR}/include)
+set(LIST_HEADER_PATH ${PROJECT_SOURCE_DIR}/include/list)
+set(TREE_HEADER_PATH ${PROJECT_SOURCE_DIR}/include/tree)
+
+# 创建静态库
+add_library(list STATIC
+    include/list/ListNode.h
+)
+add_library(tree STATIC
+    include/tree/TreeNode.h
+)
 
 # 库文件的名字
 

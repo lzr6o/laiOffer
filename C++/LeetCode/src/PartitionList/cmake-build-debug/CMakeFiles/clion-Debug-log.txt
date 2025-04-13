@@ -1,0 +1,8 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/Applications/CLion.app/Contents/bin/ninja/mac/aarch64/ninja -DCMAKE_BUILD_TYPE=DEBUG -G Ninja -S /Users/lzr/Desktop/laiOffer/C++/LeetCode/src/PartitionList -B /Users/lzr/Desktop/laiOffer/C++/LeetCode/src/PartitionList/cmake-build-debug
+CMake Error at CMakeLists.txt:8 (add_executable):
+  The target name "./PartitionList.cpp" is reserved or not valid for certain
+  CMake features, such as generator expressions, and may result in undefined
+  behavior.
+
+
+-- Configuring incomplete, errors occurred!
