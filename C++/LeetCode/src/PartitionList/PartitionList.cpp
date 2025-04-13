@@ -1,5 +1,5 @@
 #include <iostream>
-#include "../../include/list/ListNode.h"
+#include "ListNode.h"
 
 using namespace std;
 
