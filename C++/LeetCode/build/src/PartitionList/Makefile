@@ -117,42 +117,42 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-src/PartitionList/CMakeFiles/partitionlist.dir/rule:
-	cd /Users/lzr/Desktop/laiOffer/C++/LeetCode/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/PartitionList/CMakeFiles/partitionlist.dir/rule
-.PHONY : src/PartitionList/CMakeFiles/partitionlist.dir/rule
+src/PartitionList/CMakeFiles/PartitionList.dir/rule:
+	cd /Users/lzr/Desktop/laiOffer/C++/LeetCode/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/PartitionList/CMakeFiles/PartitionList.dir/rule
+.PHONY : src/PartitionList/CMakeFiles/PartitionList.dir/rule
 
 # Convenience name for target.
-partitionlist: src/PartitionList/CMakeFiles/partitionlist.dir/rule
-.PHONY : partitionlist
+PartitionList: src/PartitionList/CMakeFiles/PartitionList.dir/rule
+.PHONY : PartitionList
 
 # fast build rule for target.
-partitionlist/fast:
-	cd /Users/lzr/Desktop/laiOffer/C++/LeetCode/build && $(MAKE) $(MAKESILENT) -f src/PartitionList/CMakeFiles/partitionlist.dir/build.make src/PartitionList/CMakeFiles/partitionlist.dir/build
-.PHONY : partitionlist/fast
+PartitionList/fast:
+	cd /Users/lzr/Desktop/laiOffer/C++/LeetCode/build && $(MAKE) $(MAKESILENT) -f src/PartitionList/CMakeFiles/PartitionList.dir/build.make src/PartitionList/CMakeFiles/PartitionList.dir/build
+.PHONY : PartitionList/fast
 
-partitionList.o: partitionList.cpp.o
-.PHONY : partitionList.o
+PartitionList.o: PartitionList.cpp.o
+.PHONY : PartitionList.o
 
 # target to build an object file
-partitionList.cpp.o:
-	cd /Users/lzr/Desktop/laiOffer/C++/LeetCode/build && $(MAKE) $(MAKESILENT) -f src/PartitionList/CMakeFiles/partitionlist.dir/build.make src/PartitionList/CMakeFiles/partitionlist.dir/partitionList.cpp.o
-.PHONY : partitionList.cpp.o
+PartitionList.cpp.o:
+	cd /Users/lzr/Desktop/laiOffer/C++/LeetCode/build && $(MAKE) $(MAKESILENT) -f src/PartitionList/CMakeFiles/PartitionList.dir/build.make src/PartitionList/CMakeFiles/PartitionList.dir/PartitionList.cpp.o
+.PHONY : PartitionList.cpp.o
 
-partitionList.i: partitionList.cpp.i
-.PHONY : partitionList.i
+PartitionList.i: PartitionList.cpp.i
+.PHONY : PartitionList.i
 
 # target to preprocess a source file
-partitionList.cpp.i:
-	cd /Users/lzr/Desktop/laiOffer/C++/LeetCode/build && $(MAKE) $(MAKESILENT) -f src/PartitionList/CMakeFiles/partitionlist.dir/build.make src/PartitionList/CMakeFiles/partitionlist.dir/partitionList.cpp.i
-.PHONY : partitionList.cpp.i
+PartitionList.cpp.i:
+	cd /Users/lzr/Desktop/laiOffer/C++/LeetCode/build && $(MAKE) $(MAKESILENT) -f src/PartitionList/CMakeFiles/PartitionList.dir/build.make src/PartitionList/CMakeFiles/PartitionList.dir/PartitionList.cpp.i
+.PHONY : PartitionList.cpp.i
 
-partitionList.s: partitionList.cpp.s
-.PHONY : partitionList.s
+PartitionList.s: PartitionList.cpp.s
+.PHONY : PartitionList.s
 
 # target to generate assembly for a file
-partitionList.cpp.s:
-	cd /Users/lzr/Desktop/laiOffer/C++/LeetCode/build && $(MAKE) $(MAKESILENT) -f src/PartitionList/CMakeFiles/partitionlist.dir/build.make src/PartitionList/CMakeFiles/partitionlist.dir/partitionList.cpp.s
-.PHONY : partitionList.cpp.s
+PartitionList.cpp.s:
+	cd /Users/lzr/Desktop/laiOffer/C++/LeetCode/build && $(MAKE) $(MAKESILENT) -f src/PartitionList/CMakeFiles/PartitionList.dir/build.make src/PartitionList/CMakeFiles/PartitionList.dir/PartitionList.cpp.s
+.PHONY : PartitionList.cpp.s
 
 # Help Target
 help:
@@ -162,10 +162,10 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... partitionlist"
-	@echo "... partitionList.o"
-	@echo "... partitionList.i"
-	@echo "... partitionList.s"
+	@echo "... PartitionList"
+	@echo "... PartitionList.o"
+	@echo "... PartitionList.i"
+	@echo "... PartitionList.s"
 .PHONY : help
 
 

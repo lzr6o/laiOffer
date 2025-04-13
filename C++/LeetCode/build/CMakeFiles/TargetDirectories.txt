@@ -2,6 +2,15 @@
 /Users/lzr/Desktop/laiOffer/C++/LeetCode/build/CMakeFiles/rebuild_cache.dir
 /Users/lzr/Desktop/laiOffer/C++/LeetCode/build/src/CMakeFiles/edit_cache.dir
 /Users/lzr/Desktop/laiOffer/C++/LeetCode/build/src/CMakeFiles/rebuild_cache.dir
-/Users/lzr/Desktop/laiOffer/C++/LeetCode/build/src/PartitionList/CMakeFiles/partitionlist.dir
+/Users/lzr/Desktop/laiOffer/C++/LeetCode/build/src/TwoSum/CMakeFiles/TwoSum.dir
+/Users/lzr/Desktop/laiOffer/C++/LeetCode/build/src/TwoSum/CMakeFiles/edit_cache.dir
+/Users/lzr/Desktop/laiOffer/C++/LeetCode/build/src/TwoSum/CMakeFiles/rebuild_cache.dir
+/Users/lzr/Desktop/laiOffer/C++/LeetCode/build/src/PartitionList/CMakeFiles/PartitionList.dir
 /Users/lzr/Desktop/laiOffer/C++/LeetCode/build/src/PartitionList/CMakeFiles/edit_cache.dir
 /Users/lzr/Desktop/laiOffer/C++/LeetCode/build/src/PartitionList/CMakeFiles/rebuild_cache.dir
+/Users/lzr/Desktop/laiOffer/C++/LeetCode/build/src/FindMissingAndRepeatedValues/CMakeFiles/FindMissingAndRepeatedValues.dir
+/Users/lzr/Desktop/laiOffer/C++/LeetCode/build/src/FindMissingAndRepeatedValues/CMakeFiles/edit_cache.dir
+/Users/lzr/Desktop/laiOffer/C++/LeetCode/build/src/FindMissingAndRepeatedValues/CMakeFiles/rebuild_cache.dir
+/Users/lzr/Desktop/laiOffer/C++/LeetCode/build/src/MergeTwo2DArraysBySummingValues/CMakeFiles/MergeTwo2DArraysBySummingValues.dir
+/Users/lzr/Desktop/laiOffer/C++/LeetCode/build/src/MergeTwo2DArraysBySummingValues/CMakeFiles/edit_cache.dir
+/Users/lzr/Desktop/laiOffer/C++/LeetCode/build/src/MergeTwo2DArraysBySummingValues/CMakeFiles/rebuild_cache.dir

@@ -39,7 +39,22 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
+  include("/Users/lzr/Desktop/laiOffer/C++/LeetCode/build/src/TwoSum/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
   include("/Users/lzr/Desktop/laiOffer/C++/LeetCode/build/src/PartitionList/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/Users/lzr/Desktop/laiOffer/C++/LeetCode/build/src/FindMissingAndRepeatedValues/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/Users/lzr/Desktop/laiOffer/C++/LeetCode/build/src/MergeTwo2DArraysBySummingValues/cmake_install.cmake")
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT

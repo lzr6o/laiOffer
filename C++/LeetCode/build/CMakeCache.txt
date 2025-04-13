@@ -137,7 +137,7 @@ CMAKE_OSX_DEPLOYMENT_TARGET:STRING=
 
 //The product will be built against the headers and libraries located
 // inside the indicated SDK.
-CMAKE_OSX_SYSROOT:PATH=/Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk
+CMAKE_OSX_SYSROOT:PATH=/Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk
 
 //Value Computed by CMake
 CMAKE_PROJECT_DESCRIPTION:STATIC=
@@ -229,6 +229,15 @@ CMAKE_TAPI:FILEPATH=/Library/Developer/CommandLineTools/usr/bin/tapi
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
 //Value Computed by CMake
+FindMissingAndRepeatedValues_BINARY_DIR:STATIC=/Users/lzr/Desktop/laiOffer/C++/LeetCode/build/src/FindMissingAndRepeatedValues
+
+//Value Computed by CMake
+FindMissingAndRepeatedValues_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+FindMissingAndRepeatedValues_SOURCE_DIR:STATIC=/Users/lzr/Desktop/laiOffer/C++/LeetCode/src/FindMissingAndRepeatedValues
+
+//Value Computed by CMake
 LeetCode_BINARY_DIR:STATIC=/Users/lzr/Desktop/laiOffer/C++/LeetCode/build
 
 //Value Computed by CMake
@@ -236,6 +245,24 @@ LeetCode_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
 LeetCode_SOURCE_DIR:STATIC=/Users/lzr/Desktop/laiOffer/C++/LeetCode
+
+//Value Computed by CMake
+MergeTwo2DArraysBySummingValues_BINARY_DIR:STATIC=/Users/lzr/Desktop/laiOffer/C++/LeetCode/build/src/MergeTwo2DArraysBySummingValues
+
+//Value Computed by CMake
+MergeTwo2DArraysBySummingValues_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+MergeTwo2DArraysBySummingValues_SOURCE_DIR:STATIC=/Users/lzr/Desktop/laiOffer/C++/LeetCode/src/MergeTwo2DArraysBySummingValues
+
+//Value Computed by CMake
+PartitionList_BINARY_DIR:STATIC=/Users/lzr/Desktop/laiOffer/C++/LeetCode/build/src/PartitionList
+
+//Value Computed by CMake
+PartitionList_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+PartitionList_SOURCE_DIR:STATIC=/Users/lzr/Desktop/laiOffer/C++/LeetCode/src/PartitionList
 
 //Value Computed by CMake
 SRC_BINARY_DIR:STATIC=/Users/lzr/Desktop/laiOffer/C++/LeetCode/build/src
@@ -247,13 +274,13 @@ SRC_IS_TOP_LEVEL:STATIC=OFF
 SRC_SOURCE_DIR:STATIC=/Users/lzr/Desktop/laiOffer/C++/LeetCode/src
 
 //Value Computed by CMake
-partitionList_BINARY_DIR:STATIC=/Users/lzr/Desktop/laiOffer/C++/LeetCode/build/src/PartitionList
+TwoSum_BINARY_DIR:STATIC=/Users/lzr/Desktop/laiOffer/C++/LeetCode/build/src/TwoSum
 
 //Value Computed by CMake
-partitionList_IS_TOP_LEVEL:STATIC=OFF
+TwoSum_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
-partitionList_SOURCE_DIR:STATIC=/Users/lzr/Desktop/laiOffer/C++/LeetCode/src/PartitionList
+TwoSum_SOURCE_DIR:STATIC=/Users/lzr/Desktop/laiOffer/C++/LeetCode/src/TwoSum
 
 
 ########################
@@ -354,7 +381,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=3
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=6
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

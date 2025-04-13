@@ -82,30 +82,80 @@ clean: src/clean
 # Directory level rules for directory src
 
 # Recursive "all" directory target.
+src/all: src/TwoSum/all
 src/all: src/PartitionList/all
+src/all: src/FindMissingAndRepeatedValues/all
+src/all: src/MergeTwo2DArraysBySummingValues/all
 .PHONY : src/all
 
 # Recursive "codegen" directory target.
+src/codegen: src/TwoSum/codegen
 src/codegen: src/PartitionList/codegen
+src/codegen: src/FindMissingAndRepeatedValues/codegen
+src/codegen: src/MergeTwo2DArraysBySummingValues/codegen
 .PHONY : src/codegen
 
 # Recursive "preinstall" directory target.
+src/preinstall: src/TwoSum/preinstall
 src/preinstall: src/PartitionList/preinstall
+src/preinstall: src/FindMissingAndRepeatedValues/preinstall
+src/preinstall: src/MergeTwo2DArraysBySummingValues/preinstall
 .PHONY : src/preinstall
 
 # Recursive "clean" directory target.
+src/clean: src/TwoSum/clean
 src/clean: src/PartitionList/clean
+src/clean: src/FindMissingAndRepeatedValues/clean
+src/clean: src/MergeTwo2DArraysBySummingValues/clean
 .PHONY : src/clean
+
+#=============================================================================
+# Directory level rules for directory src/FindMissingAndRepeatedValues
+
+# Recursive "all" directory target.
+src/FindMissingAndRepeatedValues/all: src/FindMissingAndRepeatedValues/CMakeFiles/FindMissingAndRepeatedValues.dir/all
+.PHONY : src/FindMissingAndRepeatedValues/all
+
+# Recursive "codegen" directory target.
+src/FindMissingAndRepeatedValues/codegen: src/FindMissingAndRepeatedValues/CMakeFiles/FindMissingAndRepeatedValues.dir/codegen
+.PHONY : src/FindMissingAndRepeatedValues/codegen
+
+# Recursive "preinstall" directory target.
+src/FindMissingAndRepeatedValues/preinstall:
+.PHONY : src/FindMissingAndRepeatedValues/preinstall
+
+# Recursive "clean" directory target.
+src/FindMissingAndRepeatedValues/clean: src/FindMissingAndRepeatedValues/CMakeFiles/FindMissingAndRepeatedValues.dir/clean
+.PHONY : src/FindMissingAndRepeatedValues/clean
+
+#=============================================================================
+# Directory level rules for directory src/MergeTwo2DArraysBySummingValues
+
+# Recursive "all" directory target.
+src/MergeTwo2DArraysBySummingValues/all: src/MergeTwo2DArraysBySummingValues/CMakeFiles/MergeTwo2DArraysBySummingValues.dir/all
+.PHONY : src/MergeTwo2DArraysBySummingValues/all
+
+# Recursive "codegen" directory target.
+src/MergeTwo2DArraysBySummingValues/codegen: src/MergeTwo2DArraysBySummingValues/CMakeFiles/MergeTwo2DArraysBySummingValues.dir/codegen
+.PHONY : src/MergeTwo2DArraysBySummingValues/codegen
+
+# Recursive "preinstall" directory target.
+src/MergeTwo2DArraysBySummingValues/preinstall:
+.PHONY : src/MergeTwo2DArraysBySummingValues/preinstall
+
+# Recursive "clean" directory target.
+src/MergeTwo2DArraysBySummingValues/clean: src/MergeTwo2DArraysBySummingValues/CMakeFiles/MergeTwo2DArraysBySummingValues.dir/clean
+.PHONY : src/MergeTwo2DArraysBySummingValues/clean
 
 #=============================================================================
 # Directory level rules for directory src/PartitionList
 
 # Recursive "all" directory target.
-src/PartitionList/all: src/PartitionList/CMakeFiles/partitionlist.dir/all
+src/PartitionList/all: src/PartitionList/CMakeFiles/PartitionList.dir/all
 .PHONY : src/PartitionList/all
 
 # Recursive "codegen" directory target.
-src/PartitionList/codegen: src/PartitionList/CMakeFiles/partitionlist.dir/codegen
+src/PartitionList/codegen: src/PartitionList/CMakeFiles/PartitionList.dir/codegen
 .PHONY : src/PartitionList/codegen
 
 # Recursive "preinstall" directory target.
@@ -113,39 +163,151 @@ src/PartitionList/preinstall:
 .PHONY : src/PartitionList/preinstall
 
 # Recursive "clean" directory target.
-src/PartitionList/clean: src/PartitionList/CMakeFiles/partitionlist.dir/clean
+src/PartitionList/clean: src/PartitionList/CMakeFiles/PartitionList.dir/clean
 .PHONY : src/PartitionList/clean
 
 #=============================================================================
-# Target rules for target src/PartitionList/CMakeFiles/partitionlist.dir
+# Directory level rules for directory src/TwoSum
+
+# Recursive "all" directory target.
+src/TwoSum/all: src/TwoSum/CMakeFiles/TwoSum.dir/all
+.PHONY : src/TwoSum/all
+
+# Recursive "codegen" directory target.
+src/TwoSum/codegen: src/TwoSum/CMakeFiles/TwoSum.dir/codegen
+.PHONY : src/TwoSum/codegen
+
+# Recursive "preinstall" directory target.
+src/TwoSum/preinstall:
+.PHONY : src/TwoSum/preinstall
+
+# Recursive "clean" directory target.
+src/TwoSum/clean: src/TwoSum/CMakeFiles/TwoSum.dir/clean
+.PHONY : src/TwoSum/clean
+
+#=============================================================================
+# Target rules for target src/TwoSum/CMakeFiles/TwoSum.dir
 
 # All Build rule for target.
-src/PartitionList/CMakeFiles/partitionlist.dir/all:
-	$(MAKE) $(MAKESILENT) -f src/PartitionList/CMakeFiles/partitionlist.dir/build.make src/PartitionList/CMakeFiles/partitionlist.dir/depend
-	$(MAKE) $(MAKESILENT) -f src/PartitionList/CMakeFiles/partitionlist.dir/build.make src/PartitionList/CMakeFiles/partitionlist.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/lzr/Desktop/laiOffer/C++/LeetCode/build/CMakeFiles --progress-num=1,2 "Built target partitionlist"
-.PHONY : src/PartitionList/CMakeFiles/partitionlist.dir/all
+src/TwoSum/CMakeFiles/TwoSum.dir/all:
+	$(MAKE) $(MAKESILENT) -f src/TwoSum/CMakeFiles/TwoSum.dir/build.make src/TwoSum/CMakeFiles/TwoSum.dir/depend
+	$(MAKE) $(MAKESILENT) -f src/TwoSum/CMakeFiles/TwoSum.dir/build.make src/TwoSum/CMakeFiles/TwoSum.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/lzr/Desktop/laiOffer/C++/LeetCode/build/CMakeFiles --progress-num=7,8 "Built target TwoSum"
+.PHONY : src/TwoSum/CMakeFiles/TwoSum.dir/all
 
 # Build rule for subdir invocation for target.
-src/PartitionList/CMakeFiles/partitionlist.dir/rule: cmake_check_build_system
+src/TwoSum/CMakeFiles/TwoSum.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/lzr/Desktop/laiOffer/C++/LeetCode/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/PartitionList/CMakeFiles/partitionlist.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/TwoSum/CMakeFiles/TwoSum.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/lzr/Desktop/laiOffer/C++/LeetCode/build/CMakeFiles 0
-.PHONY : src/PartitionList/CMakeFiles/partitionlist.dir/rule
+.PHONY : src/TwoSum/CMakeFiles/TwoSum.dir/rule
 
 # Convenience name for target.
-partitionlist: src/PartitionList/CMakeFiles/partitionlist.dir/rule
-.PHONY : partitionlist
+TwoSum: src/TwoSum/CMakeFiles/TwoSum.dir/rule
+.PHONY : TwoSum
 
 # codegen rule for target.
-src/PartitionList/CMakeFiles/partitionlist.dir/codegen:
-	$(MAKE) $(MAKESILENT) -f src/PartitionList/CMakeFiles/partitionlist.dir/build.make src/PartitionList/CMakeFiles/partitionlist.dir/codegen
-.PHONY : src/PartitionList/CMakeFiles/partitionlist.dir/codegen
+src/TwoSum/CMakeFiles/TwoSum.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f src/TwoSum/CMakeFiles/TwoSum.dir/build.make src/TwoSum/CMakeFiles/TwoSum.dir/codegen
+.PHONY : src/TwoSum/CMakeFiles/TwoSum.dir/codegen
 
 # clean rule for target.
-src/PartitionList/CMakeFiles/partitionlist.dir/clean:
-	$(MAKE) $(MAKESILENT) -f src/PartitionList/CMakeFiles/partitionlist.dir/build.make src/PartitionList/CMakeFiles/partitionlist.dir/clean
-.PHONY : src/PartitionList/CMakeFiles/partitionlist.dir/clean
+src/TwoSum/CMakeFiles/TwoSum.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src/TwoSum/CMakeFiles/TwoSum.dir/build.make src/TwoSum/CMakeFiles/TwoSum.dir/clean
+.PHONY : src/TwoSum/CMakeFiles/TwoSum.dir/clean
+
+#=============================================================================
+# Target rules for target src/PartitionList/CMakeFiles/PartitionList.dir
+
+# All Build rule for target.
+src/PartitionList/CMakeFiles/PartitionList.dir/all:
+	$(MAKE) $(MAKESILENT) -f src/PartitionList/CMakeFiles/PartitionList.dir/build.make src/PartitionList/CMakeFiles/PartitionList.dir/depend
+	$(MAKE) $(MAKESILENT) -f src/PartitionList/CMakeFiles/PartitionList.dir/build.make src/PartitionList/CMakeFiles/PartitionList.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/lzr/Desktop/laiOffer/C++/LeetCode/build/CMakeFiles --progress-num=5,6 "Built target PartitionList"
+.PHONY : src/PartitionList/CMakeFiles/PartitionList.dir/all
+
+# Build rule for subdir invocation for target.
+src/PartitionList/CMakeFiles/PartitionList.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/lzr/Desktop/laiOffer/C++/LeetCode/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/PartitionList/CMakeFiles/PartitionList.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/lzr/Desktop/laiOffer/C++/LeetCode/build/CMakeFiles 0
+.PHONY : src/PartitionList/CMakeFiles/PartitionList.dir/rule
+
+# Convenience name for target.
+PartitionList: src/PartitionList/CMakeFiles/PartitionList.dir/rule
+.PHONY : PartitionList
+
+# codegen rule for target.
+src/PartitionList/CMakeFiles/PartitionList.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f src/PartitionList/CMakeFiles/PartitionList.dir/build.make src/PartitionList/CMakeFiles/PartitionList.dir/codegen
+.PHONY : src/PartitionList/CMakeFiles/PartitionList.dir/codegen
+
+# clean rule for target.
+src/PartitionList/CMakeFiles/PartitionList.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src/PartitionList/CMakeFiles/PartitionList.dir/build.make src/PartitionList/CMakeFiles/PartitionList.dir/clean
+.PHONY : src/PartitionList/CMakeFiles/PartitionList.dir/clean
+
+#=============================================================================
+# Target rules for target src/FindMissingAndRepeatedValues/CMakeFiles/FindMissingAndRepeatedValues.dir
+
+# All Build rule for target.
+src/FindMissingAndRepeatedValues/CMakeFiles/FindMissingAndRepeatedValues.dir/all:
+	$(MAKE) $(MAKESILENT) -f src/FindMissingAndRepeatedValues/CMakeFiles/FindMissingAndRepeatedValues.dir/build.make src/FindMissingAndRepeatedValues/CMakeFiles/FindMissingAndRepeatedValues.dir/depend
+	$(MAKE) $(MAKESILENT) -f src/FindMissingAndRepeatedValues/CMakeFiles/FindMissingAndRepeatedValues.dir/build.make src/FindMissingAndRepeatedValues/CMakeFiles/FindMissingAndRepeatedValues.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/lzr/Desktop/laiOffer/C++/LeetCode/build/CMakeFiles --progress-num=1,2 "Built target FindMissingAndRepeatedValues"
+.PHONY : src/FindMissingAndRepeatedValues/CMakeFiles/FindMissingAndRepeatedValues.dir/all
+
+# Build rule for subdir invocation for target.
+src/FindMissingAndRepeatedValues/CMakeFiles/FindMissingAndRepeatedValues.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/lzr/Desktop/laiOffer/C++/LeetCode/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/FindMissingAndRepeatedValues/CMakeFiles/FindMissingAndRepeatedValues.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/lzr/Desktop/laiOffer/C++/LeetCode/build/CMakeFiles 0
+.PHONY : src/FindMissingAndRepeatedValues/CMakeFiles/FindMissingAndRepeatedValues.dir/rule
+
+# Convenience name for target.
+FindMissingAndRepeatedValues: src/FindMissingAndRepeatedValues/CMakeFiles/FindMissingAndRepeatedValues.dir/rule
+.PHONY : FindMissingAndRepeatedValues
+
+# codegen rule for target.
+src/FindMissingAndRepeatedValues/CMakeFiles/FindMissingAndRepeatedValues.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f src/FindMissingAndRepeatedValues/CMakeFiles/FindMissingAndRepeatedValues.dir/build.make src/FindMissingAndRepeatedValues/CMakeFiles/FindMissingAndRepeatedValues.dir/codegen
+.PHONY : src/FindMissingAndRepeatedValues/CMakeFiles/FindMissingAndRepeatedValues.dir/codegen
+
+# clean rule for target.
+src/FindMissingAndRepeatedValues/CMakeFiles/FindMissingAndRepeatedValues.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src/FindMissingAndRepeatedValues/CMakeFiles/FindMissingAndRepeatedValues.dir/build.make src/FindMissingAndRepeatedValues/CMakeFiles/FindMissingAndRepeatedValues.dir/clean
+.PHONY : src/FindMissingAndRepeatedValues/CMakeFiles/FindMissingAndRepeatedValues.dir/clean
+
+#=============================================================================
+# Target rules for target src/MergeTwo2DArraysBySummingValues/CMakeFiles/MergeTwo2DArraysBySummingValues.dir
+
+# All Build rule for target.
+src/MergeTwo2DArraysBySummingValues/CMakeFiles/MergeTwo2DArraysBySummingValues.dir/all:
+	$(MAKE) $(MAKESILENT) -f src/MergeTwo2DArraysBySummingValues/CMakeFiles/MergeTwo2DArraysBySummingValues.dir/build.make src/MergeTwo2DArraysBySummingValues/CMakeFiles/MergeTwo2DArraysBySummingValues.dir/depend
+	$(MAKE) $(MAKESILENT) -f src/MergeTwo2DArraysBySummingValues/CMakeFiles/MergeTwo2DArraysBySummingValues.dir/build.make src/MergeTwo2DArraysBySummingValues/CMakeFiles/MergeTwo2DArraysBySummingValues.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/lzr/Desktop/laiOffer/C++/LeetCode/build/CMakeFiles --progress-num=3,4 "Built target MergeTwo2DArraysBySummingValues"
+.PHONY : src/MergeTwo2DArraysBySummingValues/CMakeFiles/MergeTwo2DArraysBySummingValues.dir/all
+
+# Build rule for subdir invocation for target.
+src/MergeTwo2DArraysBySummingValues/CMakeFiles/MergeTwo2DArraysBySummingValues.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/lzr/Desktop/laiOffer/C++/LeetCode/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/MergeTwo2DArraysBySummingValues/CMakeFiles/MergeTwo2DArraysBySummingValues.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/lzr/Desktop/laiOffer/C++/LeetCode/build/CMakeFiles 0
+.PHONY : src/MergeTwo2DArraysBySummingValues/CMakeFiles/MergeTwo2DArraysBySummingValues.dir/rule
+
+# Convenience name for target.
+MergeTwo2DArraysBySummingValues: src/MergeTwo2DArraysBySummingValues/CMakeFiles/MergeTwo2DArraysBySummingValues.dir/rule
+.PHONY : MergeTwo2DArraysBySummingValues
+
+# codegen rule for target.
+src/MergeTwo2DArraysBySummingValues/CMakeFiles/MergeTwo2DArraysBySummingValues.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f src/MergeTwo2DArraysBySummingValues/CMakeFiles/MergeTwo2DArraysBySummingValues.dir/build.make src/MergeTwo2DArraysBySummingValues/CMakeFiles/MergeTwo2DArraysBySummingValues.dir/codegen
+.PHONY : src/MergeTwo2DArraysBySummingValues/CMakeFiles/MergeTwo2DArraysBySummingValues.dir/codegen
+
+# clean rule for target.
+src/MergeTwo2DArraysBySummingValues/CMakeFiles/MergeTwo2DArraysBySummingValues.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src/MergeTwo2DArraysBySummingValues/CMakeFiles/MergeTwo2DArraysBySummingValues.dir/build.make src/MergeTwo2DArraysBySummingValues/CMakeFiles/MergeTwo2DArraysBySummingValues.dir/clean
+.PHONY : src/MergeTwo2DArraysBySummingValues/CMakeFiles/MergeTwo2DArraysBySummingValues.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

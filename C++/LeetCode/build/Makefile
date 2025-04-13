@@ -117,17 +117,56 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named partitionlist
+# Target rules for targets named TwoSum
 
 # Build rule for target.
-partitionlist: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 partitionlist
-.PHONY : partitionlist
+TwoSum: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 TwoSum
+.PHONY : TwoSum
 
 # fast build rule for target.
-partitionlist/fast:
-	$(MAKE) $(MAKESILENT) -f src/PartitionList/CMakeFiles/partitionlist.dir/build.make src/PartitionList/CMakeFiles/partitionlist.dir/build
-.PHONY : partitionlist/fast
+TwoSum/fast:
+	$(MAKE) $(MAKESILENT) -f src/TwoSum/CMakeFiles/TwoSum.dir/build.make src/TwoSum/CMakeFiles/TwoSum.dir/build
+.PHONY : TwoSum/fast
+
+#=============================================================================
+# Target rules for targets named PartitionList
+
+# Build rule for target.
+PartitionList: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PartitionList
+.PHONY : PartitionList
+
+# fast build rule for target.
+PartitionList/fast:
+	$(MAKE) $(MAKESILENT) -f src/PartitionList/CMakeFiles/PartitionList.dir/build.make src/PartitionList/CMakeFiles/PartitionList.dir/build
+.PHONY : PartitionList/fast
+
+#=============================================================================
+# Target rules for targets named FindMissingAndRepeatedValues
+
+# Build rule for target.
+FindMissingAndRepeatedValues: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 FindMissingAndRepeatedValues
+.PHONY : FindMissingAndRepeatedValues
+
+# fast build rule for target.
+FindMissingAndRepeatedValues/fast:
+	$(MAKE) $(MAKESILENT) -f src/FindMissingAndRepeatedValues/CMakeFiles/FindMissingAndRepeatedValues.dir/build.make src/FindMissingAndRepeatedValues/CMakeFiles/FindMissingAndRepeatedValues.dir/build
+.PHONY : FindMissingAndRepeatedValues/fast
+
+#=============================================================================
+# Target rules for targets named MergeTwo2DArraysBySummingValues
+
+# Build rule for target.
+MergeTwo2DArraysBySummingValues: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 MergeTwo2DArraysBySummingValues
+.PHONY : MergeTwo2DArraysBySummingValues
+
+# fast build rule for target.
+MergeTwo2DArraysBySummingValues/fast:
+	$(MAKE) $(MAKESILENT) -f src/MergeTwo2DArraysBySummingValues/CMakeFiles/MergeTwo2DArraysBySummingValues.dir/build.make src/MergeTwo2DArraysBySummingValues/CMakeFiles/MergeTwo2DArraysBySummingValues.dir/build
+.PHONY : MergeTwo2DArraysBySummingValues/fast
 
 # Help Target
 help:
@@ -137,7 +176,10 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... partitionlist"
+	@echo "... FindMissingAndRepeatedValues"
+	@echo "... MergeTwo2DArraysBySummingValues"
+	@echo "... PartitionList"
+	@echo "... TwoSum"
 .PHONY : help
 
 
