@@ -238,6 +238,15 @@ CMAKE_TAPI:FILEPATH=/Library/Developer/CommandLineTools/usr/bin/tapi
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
 //Value Computed by CMake
+FindMissingAndRepeatedValues_BINARY_DIR:STATIC=/Users/lzr/Desktop/laiOffer/C++/cmake-build-debug/LeetCode/src/FindMissingAndRepeatedValues
+
+//Value Computed by CMake
+FindMissingAndRepeatedValues_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+FindMissingAndRepeatedValues_SOURCE_DIR:STATIC=/Users/lzr/Desktop/laiOffer/C++/LeetCode/src/FindMissingAndRepeatedValues
+
+//Value Computed by CMake
 LeetCode_BINARY_DIR:STATIC=/Users/lzr/Desktop/laiOffer/C++/cmake-build-debug/LeetCode
 
 //Value Computed by CMake
@@ -393,7 +402,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=6
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=7
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

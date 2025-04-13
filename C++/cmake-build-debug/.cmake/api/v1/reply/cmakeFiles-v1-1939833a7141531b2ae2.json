@@ -153,10 +153,13 @@
 			"path" : "LeetCode/src/CMakeLists.txt"
 		},
 		{
+			"path" : "LeetCode/src/TwoSum/CMakeLists.txt"
+		},
+		{
 			"path" : "LeetCode/src/PartitionList/CMakeLists.txt"
 		},
 		{
-			"path" : "LeetCode/src/TwoSum/CMakeLists.txt"
+			"path" : "LeetCode/src/FindMissingAndRepeatedValues/CMakeLists.txt"
 		},
 		{
 			"path" : "LeetCode/src/MergeTwo2DArraysBySummingValues/CMakeLists.txt"

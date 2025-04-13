@@ -39,7 +39,8 @@
 					[
 						3,
 						4,
-						5
+						5,
+						6
 					],
 					"jsonFile" : "directory-LeetCode.src-DEBUG-369f8bb1a28a903b25ff.json",
 					"minimumCMakeVersion" : 
@@ -51,21 +52,6 @@
 					"source" : "LeetCode/src"
 				},
 				{
-					"build" : "LeetCode/src/PartitionList",
-					"jsonFile" : "directory-LeetCode.src.PartitionList-DEBUG-a152e75d6844c405c8da.json",
-					"minimumCMakeVersion" : 
-					{
-						"string" : "3.26"
-					},
-					"parentIndex" : 2,
-					"projectIndex" : 3,
-					"source" : "LeetCode/src/PartitionList",
-					"targetIndexes" : 
-					[
-						1
-					]
-				},
-				{
 					"build" : "LeetCode/src/TwoSum",
 					"jsonFile" : "directory-LeetCode.src.TwoSum-DEBUG-51984e6989c12b34a61e.json",
 					"minimumCMakeVersion" : 
@@ -73,11 +59,41 @@
 						"string" : "3.26"
 					},
 					"parentIndex" : 2,
-					"projectIndex" : 4,
+					"projectIndex" : 3,
 					"source" : "LeetCode/src/TwoSum",
 					"targetIndexes" : 
 					[
+						3
+					]
+				},
+				{
+					"build" : "LeetCode/src/PartitionList",
+					"jsonFile" : "directory-LeetCode.src.PartitionList-DEBUG-a152e75d6844c405c8da.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.26"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 4,
+					"source" : "LeetCode/src/PartitionList",
+					"targetIndexes" : 
+					[
 						2
+					]
+				},
+				{
+					"build" : "LeetCode/src/FindMissingAndRepeatedValues",
+					"jsonFile" : "directory-LeetCode.src.FindMissingAndRepeatedValues-DEBUG-6767b9cd6c06da0f11bd.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.26"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 5,
+					"source" : "LeetCode/src/FindMissingAndRepeatedValues",
+					"targetIndexes" : 
+					[
+						0
 					]
 				},
 				{
@@ -88,11 +104,11 @@
 						"string" : "3.26"
 					},
 					"parentIndex" : 2,
-					"projectIndex" : 5,
+					"projectIndex" : 6,
 					"source" : "LeetCode/src/MergeTwo2DArraysBySummingValues",
 					"targetIndexes" : 
 					[
-						0
+						1
 					]
 				}
 			],
@@ -127,7 +143,8 @@
 					[
 						3,
 						4,
-						5
+						5,
+						6
 					],
 					"directoryIndexes" : 
 					[
@@ -141,11 +158,11 @@
 					[
 						3
 					],
-					"name" : "PartitionList",
+					"name" : "TwoSum",
 					"parentIndex" : 2,
 					"targetIndexes" : 
 					[
-						1
+						3
 					]
 				},
 				{
@@ -153,7 +170,7 @@
 					[
 						4
 					],
-					"name" : "TwoSum",
+					"name" : "PartitionList",
 					"parentIndex" : 2,
 					"targetIndexes" : 
 					[
@@ -165,11 +182,23 @@
 					[
 						5
 					],
-					"name" : "MergeTwo2DArraysBySummingValues",
+					"name" : "FindMissingAndRepeatedValues",
 					"parentIndex" : 2,
 					"targetIndexes" : 
 					[
 						0
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						6
+					],
+					"name" : "MergeTwo2DArraysBySummingValues",
+					"parentIndex" : 2,
+					"targetIndexes" : 
+					[
+						1
 					]
 				}
 			],
@@ -177,24 +206,31 @@
 			[
 				{
 					"directoryIndex" : 5,
-					"id" : "MergeTwo2DArraysBySummingValues::@376cd57e82f1586fd4bb",
-					"jsonFile" : "target-MergeTwo2DArraysBySummingValues-DEBUG-4b2a29c913124e5b420e.json",
-					"name" : "MergeTwo2DArraysBySummingValues",
+					"id" : "FindMissingAndRepeatedValues::@37d00769dbf4826e2bf2",
+					"jsonFile" : "target-FindMissingAndRepeatedValues-DEBUG-8c09f92c9e3c049353ba.json",
+					"name" : "FindMissingAndRepeatedValues",
 					"projectIndex" : 5
 				},
 				{
-					"directoryIndex" : 3,
-					"id" : "PartitionList::@6019517091ffadb2a1c0",
-					"jsonFile" : "target-PartitionList-DEBUG-9959660ff86d9a624bab.json",
-					"name" : "PartitionList",
-					"projectIndex" : 3
+					"directoryIndex" : 6,
+					"id" : "MergeTwo2DArraysBySummingValues::@376cd57e82f1586fd4bb",
+					"jsonFile" : "target-MergeTwo2DArraysBySummingValues-DEBUG-4b2a29c913124e5b420e.json",
+					"name" : "MergeTwo2DArraysBySummingValues",
+					"projectIndex" : 6
 				},
 				{
 					"directoryIndex" : 4,
+					"id" : "PartitionList::@6019517091ffadb2a1c0",
+					"jsonFile" : "target-PartitionList-DEBUG-9959660ff86d9a624bab.json",
+					"name" : "PartitionList",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 3,
 					"id" : "TwoSum::@53b2bdd899669c87025d",
 					"jsonFile" : "target-TwoSum-DEBUG-a984edb3dd74992c536d.json",
 					"name" : "TwoSum",
-					"projectIndex" : 4
+					"projectIndex" : 3
 				}
 			]
 		}
