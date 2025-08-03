@@ -1,9 +1,0 @@
-<component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="PartitionList.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C__" TARGET_NAME="PartitionList.cpp" CONFIG_NAME="PartitionList.cpp">
-    <option name="compilerOptions" value="-I/Users/lzr/Desktop/laiOffer/C++/LeetCode/include/list" />
-    <option name="sourceFile" value="LeetCode/src/PartitionList/PartitionList.cpp" />
-    <method v="2">
-      <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
-    </method>
-  </configuration>
-</component>

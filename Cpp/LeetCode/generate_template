@@ -1,0 +1,22 @@
+#!/bin/bash
+set -e
+
+# get scripts directory
+CMAKE_SOURCE_DIR=$(dirname $(readlink -f $0))
+# update cmake source path
+CMAKE_SOURCE_DIR=$(pwd)
+cd ${CMAKE_SOURCE_DIR}
+
+if [ ! -n "$1" ]; then
+    echo "Please input solution."
+    exit 1
+else
+    SOLUTION=$1
+    ID=$(echo ${SOLUTION} | sed 's/.[^.]*$//g')
+    SOLUTION=$(echo ${SOLUTION} | sed 's/^.*\.//g')
+fi
+
+cp -f ${CMAKE_SOURCE_DIR}/src/0.template.cc ${CMAKE_SOURCE_DIR}/src/${ID}.${SOLUTION}.cc
+
+sed -i "s/isValid/$(expr ${SOLUTION})/g" \
+    ${CMAKE_SOURCE_DIR}/src/${ID}.${SOLUTION}.cc
