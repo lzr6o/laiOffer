@@ -3,24 +3,21 @@
 class Solution
 {
 public:
-    int lengthOfLongestSubstring(string s)
+    int lengthOfLongestSubstring(string str)
     {
+        int left   = 0;
         int maxLen = 0;
-        unordered_set<char> charSet;
-        for (char c : s)
+        unordered_set<char> seen;
+        for (int right = 0; right < str.size(); right++)
         {
-            if (charSet.find(c) != charSet.end())
+            char c = str[right];
+            while (seen.find(c) != seen.end())
             {
-                while (charSet.find(c) != charSet.end())
-                {
-                    charSet.erase(charSet.begin());
-                }
+                seen.erase(str[left]); // 删除窗口左端字符
+                left++;
             }
-            else
-            {
-                charSet.insert(c);
-                maxLen = max(maxLen, (int)charSet.size());
-            }
+            seen.insert(c);
+            maxLen = max(maxLen, right - left + 1);
         }
         return maxLen;
     };
@@ -28,26 +25,26 @@ public:
 
 TEST(longestSubStringWithoutRepeatingCharacters, longestSubStringWithoutRepeatingCharacters_1)
 {
-    Solution s;
+    Solution sol;
     string str = "abcabcbb";
     int ans    = 3;
-    EXPECT_EQ(s.lengthOfLongestSubstring(str), ans);
+    EXPECT_EQ(sol.lengthOfLongestSubstring(str), ans);
 }
 
 TEST(longestSubStringWithoutRepeatingCharacters, longestSubStringWithoutRepeatingCharacters_2)
 {
-    Solution s;
+    Solution sol;
     string str = "bbbbb";
     int ans    = 1;
-    EXPECT_EQ(s.lengthOfLongestSubstring(str), ans);
+    EXPECT_EQ(sol.lengthOfLongestSubstring(str), ans);
 }
 
 TEST(longestSubStringWithoutRepeatingCharacters, longestSubStringWithoutRepeatingCharacters_3)
 {
-    Solution s;
+    Solution sol;
     string str = "pwwkew";
     int ans    = 3;
-    EXPECT_EQ(s.lengthOfLongestSubstring(str), ans);
+    EXPECT_EQ(sol.lengthOfLongestSubstring(str), ans);
 }
 
 int main(int argc, char **argv)
